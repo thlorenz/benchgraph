@@ -1,0 +1,47 @@
+{
+  "buffers/buffer-base64-encode": [
+    {
+      "name": "buffers/buffer-base64-encode",
+      "config": {},
+      "time": "12.00837"
+    }
+  ],
+  "buffers/buffer-creation": [
+    {
+      "name": "buffers/buffer-creation",
+      "config": {
+        "type": "fast",
+        "len": 10,
+        "n": 1024
+      },
+      "time": "4393.04954"
+    },
+    {
+      "name": "buffers/buffer-creation",
+      "config": {
+        "type": "fast",
+        "len": 1024,
+        "n": 1024
+      },
+      "time": "1531.12607"
+    },
+    {
+      "name": "buffers/buffer-creation",
+      "config": {
+        "type": "slow",
+        "len": 10,
+        "n": 1024
+      },
+      "time": "817.97773"
+    },
+    {
+      "name": "buffers/buffer-creation",
+      "config": {
+        "type": "slow",
+        "len": 1024,
+        "n": 1024
+      },
+      "time": "561.20176"
+    }
+  ]
+}

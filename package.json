@@ -1,0 +1,30 @@
+{
+  "name": "benchgraph",
+  "version": "0.0.0",
+  "description": "Runs {io,node}.js benchmarks and generates pretty graphs",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/benchgraph.git"
+  },
+  "homepage": "https://github.com/thlorenz/benchgraph",
+  "dependencies": {},
+  "devDependencies": {
+    "nave": "~0.4.3",
+    "ndjson-aggregator": "~0.1.2"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/thlorenz/benchgraph/blob/master/LICENSE"
+  },
+  "engine": {
+    "node": ">=0.8"
+  }
+}
