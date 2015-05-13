@@ -212,6 +212,11 @@ article .article-info a {
 /* graphs */
 .benchgraph-chart {
   float: left;
+  cursor: pointer;
+}
+.c3-axis-x-label {
+  font-size: 14px;
+  font-weight: bold;
 }
 
 /* clear fix */
