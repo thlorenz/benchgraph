@@ -1,5 +1,5 @@
 'use strict'
-var CHUNK_SIZE = 8 
+var CHUNK_SIZE = 8
 
 // utility functions
 function getCategories(item) {
@@ -123,6 +123,10 @@ proto._drawGraph = function _drawGraph(columns, categories, title, idx, len) {
     , bindto: attachNewElementTo(this._el, this._benchmarkName + '-' + idx)
     , bar: {
         width: { ratio: 0.4 }
+      }
+    , legend: {
+        position: 'inset'
+      , inset: { anchor: 'top-right' }
       }
   }
   this._c3.generate(chartData);

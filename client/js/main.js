@@ -11,6 +11,10 @@ function urlsFor(topic) {
   })
 }
 
+function byVersion(a, b) {
+  return a._version > b._version 
+}
+
 function getData(topic, cb) {
   var urls = urlsFor(topic);
   var tasks = urls.length;
@@ -23,7 +27,7 @@ function getData(topic, cb) {
       var obj = JSON.parse(body);
       obj._version = versions[idx];
       data.push(obj);
-      if (!--tasks) cb(null, data);
+      if (!--tasks) cb(null, data.sort(byVersion));
     }
 
     if (abort) return;
