@@ -141,13 +141,11 @@ section#content {
 }
 .column-left {
   left:0;
-  min-width:20%
 }
 .column-right {
-  position: fixed;
   margin-left: 250px;
   right: 0;
-  width: 60%;
+  float: right;
 }
 aside#sidebar {
 	width:250px;
@@ -211,6 +209,10 @@ article .article-info a {
 	color: #ccc;
 }
 
+/* graphs */
+.benchgraph-chart {
+  float: left;
+}
 
 /* clear fix */
 .clear:after {
@@ -227,19 +229,4 @@ article .article-info a {
 }
 .clear {
 	display: block;
-}
-
-@media screen and (max-width: 740px) {
-	body { font-size: 0.9em; }
-	.width { width:auto; padding-left: 10px; padding-right: 10px; }
-	.column-left, .column-right { margin:0px; }
-	header h1, header h2, nav#mainnav li a { text-align:center; }
-	section#content, aside#sidebar { position: relative; float: none; width: auto; margin-left: 0; }
-}
-
-
-@media screen and (max-width: 540px) {
-	body { font-size: 0.8em; }
-	header, header h1 a, header h1 a:hover { text-align: center; padding: 10px 0 0 0; font-size: 1.1em; }
-	nav#mainnav ul li a { margin-top: 0; padding: 1em; }
 }

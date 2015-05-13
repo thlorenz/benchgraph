@@ -28,6 +28,7 @@ function attachNewElementTo(el, id) {
   return div;
 }
 
+
 // Drawer
 function ChartDrawer(c3, data, el) {
   if (!(this instanceof ChartDrawer)) return new ChartDrawer(c3, data, el);
@@ -45,14 +46,13 @@ proto.draw = function draw(benchmarkName) {
   var title = this._benchmarkName.split('/')[1]
   var columns = this._data.reduce(getColumnsFor(this), [])
 
-  var categories = this._data[0][this._benchmarkName].map(getCategories)
-
   var chartData = {
       data: { columns: columns, type: 'bar' }
+    , size: { width: 600, height: 375 }
     , axis: {
         x: {
             type: 'category'
-          , categories: categories
+          , categories: this._getCategories()
           , label: {
                 text: title
               , position: 'inner-left'
@@ -74,13 +74,32 @@ proto.draw = function draw(benchmarkName) {
   return this
 }
 
+proto._getCategories = function _getCategories() {
+  var i, len, items;
+  // not all versions will have had data so the data item is entirely missing for them
+  // here we find the first one that has data and pull the category names out of it
+  // category names are the same for all versions
+  for (i = 0, len = this._data.length; i < len; i++) {
+    items = this._data[i] && this._data[i][this._benchmarkName]
+    if (items) return items.map(getCategories)
+  }
+  // if we couln't find a version with data we can't provide any names
+  return []
+}
+
 proto._getColumns = function _getColumns(acc, item) {
-  var dataPoints = item['buffers/buffer-creation'];
+  var dataPoints = item[this._benchmarkName];
+
   function mapY(x) {
     return parseFloat(x.rate)
   }
-  var row = [ item._version ]
-    .concat(dataPoints.map(mapY))
+
+  var row = [ item._version ];
+  // some benchmarks don't work for older versions, so we won't
+  // have any data for those
+  if (!dataPoints || !dataPoints.length) row = row.concat([])
+  else row = row.concat(dataPoints.map(mapY))
+
   acc.push(row)
   return acc;
 }

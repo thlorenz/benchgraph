@@ -31,5 +31,11 @@ proto.draw = function draw() {
     console.dir(self._data);
     chartDrawer(self._c3, self._data, self._el)
       .draw('buffers/buffer-creation')
+      .draw('buffers/buffer-compare')
+      .draw('buffers/buffer-iterate')
+      .draw('buffers/buffer-read') // -- too many data points
+      .draw('buffers/buffer-write')
+      .draw('buffers/dataview-set')
+      .draw('buffers/buffer-base64-encode')
   }
 }
