@@ -1,6 +1,6 @@
 'use strict';
 
-var Flotr = window.Flotr
+var c3 = require('c3')
   , xhr = require('xhr')
   , BufferGraph = require('./buffer-graph')
   , versions = [ 'iojs-v2.0.1', 'node-v0.10.38', 'node-v0.12.2' ]
@@ -15,7 +15,6 @@ function getData(topic, cb) {
   var urls = urlsFor(topic);
   var tasks = urls.length;
   var data = [], abort;
-
 
   function xhrData(url, idx) {
     function onresponse(err, res, body) {
@@ -34,5 +33,5 @@ function getData(topic, cb) {
 }
 
 var bufferEl = document.getElementById('buffer-graphs')
-var bufferGraph = new BufferGraph(Flotr, bufferEl, getData);
+var bufferGraph = new BufferGraph(c3, bufferEl, getData);
 bufferGraph.draw();

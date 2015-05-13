@@ -13,6 +13,7 @@
   },
   "homepage": "https://github.com/thlorenz/benchgraph",
   "dependencies": {
+    "c3": "~0.4.10",
     "xhr": "~2.0.1"
   },
   "devDependencies": {

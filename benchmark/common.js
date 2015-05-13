@@ -236,7 +236,7 @@ Benchmark.prototype.report = function(value) {
   else if (outputFormat == 'ndjson') {
     // remove file extension, i.e. .js
     var id = this._name.slice(0, -path.extname(this._name).length);
-    var data = { name: id, config: this.config, time: value.toFixed(5) }
+    var data = { name: id, config: this.config, rate: value.toFixed(5) }
     console.log(JSON.stringify(data));
   }
   process.exit(0);
