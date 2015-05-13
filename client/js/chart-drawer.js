@@ -1,4 +1,5 @@
-'use strict';
+'use strict'
+var CHUNK_SIZE = 8 
 
 // utility functions
 function getCategories(item) {
@@ -28,6 +29,63 @@ function attachNewElementTo(el, id) {
   return div;
 }
 
+function chunkify(arr, size) {
+  var chunks = []
+  while (arr.length > 0)
+    chunks.push(arr.splice(0, size))
+
+  return chunks
+}
+
+function chunkifyColumns(col) {
+  var chunks = chunkify(col, CHUNK_SIZE)
+  function prependVersion(c) {
+    return [ col._version ].concat(c)
+  }
+  return chunks.map(prependVersion);
+}
+
+function prependVersion(row) {
+  return [ row._version ].concat(row);
+}
+
+function chunkifyColumns(cols) {
+  function chunkifyRow(row) {
+    var len = row.length, chunks = []
+    if (len <= CHUNK_SIZE) return [ prependVersion(row) ];
+    var idx = 0, chunk
+    while (idx < len) {
+      chunk = row.slice(idx, idx + CHUNK_SIZE)
+      chunk._version = row._version
+      chunks.push(prependVersion(chunk))
+      idx += CHUNK_SIZE
+    }
+    return chunks
+  }
+
+  return cols.map(chunkifyRow);
+}
+
+function graphify(acc, chunks) {
+  function push(chunk, idx) {
+    if (!acc[idx]) acc[idx] = [];
+    acc[idx].push(chunk);
+  }
+  chunks.forEach(push);
+  return acc;
+}
+
+function chunkifyCategories(categories) {
+  var len = categories.length, chunks = []
+  if (len <= CHUNK_SIZE) return [ categories ];
+  var idx = 0, chunk
+  while (idx < len) {
+    chunks.push(categories.slice(idx, idx + CHUNK_SIZE))
+    idx += CHUNK_SIZE
+  }
+  return chunks
+}
+
 
 // Drawer
 function ChartDrawer(c3, data, el) {
@@ -41,18 +99,15 @@ function ChartDrawer(c3, data, el) {
 var proto = ChartDrawer.prototype;
 module.exports = ChartDrawer;
 
-proto.draw = function draw(benchmarkName) {
-  this._benchmarkName = benchmarkName;
-  var title = this._benchmarkName.split('/')[1]
-  var columns = this._data.reduce(getColumnsFor(this), [])
-
+proto._drawGraph = function _drawGraph(columns, categories, title, idx, len) {
+  if (len > 1) title += ' (' + (idx + 1) + '/' + len + ')'
   var chartData = {
       data: { columns: columns, type: 'bar' }
-    , size: { width: 600, height: 375 }
+    , size: { width: 500, height: 312.5 }
     , axis: {
         x: {
             type: 'category'
-          , categories: this._getCategories()
+          , categories: categories
           , label: {
                 text: title
               , position: 'inner-left'
@@ -65,12 +120,28 @@ proto.draw = function draw(benchmarkName) {
           }
         }
       }
-    , bindto: attachNewElementTo(this._el, this._benchmarkName)
+    , bindto: attachNewElementTo(this._el, this._benchmarkName + '-' + idx)
     , bar: {
         width: { ratio: 0.4 }
       }
   }
   this._c3.generate(chartData);
+}
+
+proto.draw = function draw(benchmarkName) {
+  this._benchmarkName = benchmarkName;
+  var title = this._benchmarkName.split('/')[1]
+
+  var categories = this._getCategories()
+  var columns = this._data.reduce(getColumnsFor(this), [])
+
+  var chunkifiedColumns = chunkifyColumns(columns);
+  var graphs = chunkifiedColumns.reduce(graphify, []);
+  var chunkifiedCategories = chunkifyCategories(categories);
+
+  for (var i = 0, len = graphs.length; i < len; i++) {
+    this._drawGraph(graphs[i], chunkifiedCategories[i], title, i, len);
+  }
   return this
 }
 
@@ -97,9 +168,10 @@ proto._getColumns = function _getColumns(acc, item) {
   var row = [ item._version ];
   // some benchmarks don't work for older versions, so we won't
   // have any data for those
-  if (!dataPoints || !dataPoints.length) row = row.concat([])
-  else row = row.concat(dataPoints.map(mapY))
+  if (!dataPoints || !dataPoints.length) row = []
+  else row = dataPoints.map(mapY)
 
+  row._version = item._version
   acc.push(row)
   return acc;
 }
