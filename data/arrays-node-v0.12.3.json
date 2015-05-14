@@ -1,0 +1,248 @@
+{
+  "arrays/var-int": [
+    {
+      "name": "arrays/var-int",
+      "config": {
+        "type": "Array",
+        "n": 25
+      },
+      "rate": "68.22829"
+    },
+    {
+      "name": "arrays/var-int",
+      "config": {
+        "type": "Buffer",
+        "n": 25
+      },
+      "rate": "87.95597"
+    },
+    {
+      "name": "arrays/var-int",
+      "config": {
+        "type": "Int8Array",
+        "n": 25
+      },
+      "rate": "84.73051"
+    },
+    {
+      "name": "arrays/var-int",
+      "config": {
+        "type": "Uint8Array",
+        "n": 25
+      },
+      "rate": "86.45209"
+    },
+    {
+      "name": "arrays/var-int",
+      "config": {
+        "type": "Int16Array",
+        "n": 25
+      },
+      "rate": "83.86944"
+    },
+    {
+      "name": "arrays/var-int",
+      "config": {
+        "type": "Uint16Array",
+        "n": 25
+      },
+      "rate": "84.52957"
+    },
+    {
+      "name": "arrays/var-int",
+      "config": {
+        "type": "Int32Array",
+        "n": 25
+      },
+      "rate": "79.28568"
+    },
+    {
+      "name": "arrays/var-int",
+      "config": {
+        "type": "Uint32Array",
+        "n": 25
+      },
+      "rate": "76.84573"
+    },
+    {
+      "name": "arrays/var-int",
+      "config": {
+        "type": "Float32Array",
+        "n": 25
+      },
+      "rate": "53.85730"
+    },
+    {
+      "name": "arrays/var-int",
+      "config": {
+        "type": "Float64Array",
+        "n": 25
+      },
+      "rate": "57.94339"
+    }
+  ],
+  "arrays/zero-float": [
+    {
+      "name": "arrays/zero-float",
+      "config": {
+        "type": "Array",
+        "n": 25
+      },
+      "rate": "69.57609"
+    },
+    {
+      "name": "arrays/zero-float",
+      "config": {
+        "type": "Buffer",
+        "n": 25
+      },
+      "rate": "85.56515"
+    },
+    {
+      "name": "arrays/zero-float",
+      "config": {
+        "type": "Int8Array",
+        "n": 25
+      },
+      "rate": "87.50507"
+    },
+    {
+      "name": "arrays/zero-float",
+      "config": {
+        "type": "Uint8Array",
+        "n": 25
+      },
+      "rate": "84.47943"
+    },
+    {
+      "name": "arrays/zero-float",
+      "config": {
+        "type": "Int16Array",
+        "n": 25
+      },
+      "rate": "81.25419"
+    },
+    {
+      "name": "arrays/zero-float",
+      "config": {
+        "type": "Uint16Array",
+        "n": 25
+      },
+      "rate": "81.99804"
+    },
+    {
+      "name": "arrays/zero-float",
+      "config": {
+        "type": "Int32Array",
+        "n": 25
+      },
+      "rate": "78.63748"
+    },
+    {
+      "name": "arrays/zero-float",
+      "config": {
+        "type": "Uint32Array",
+        "n": 25
+      },
+      "rate": "76.13709"
+    },
+    {
+      "name": "arrays/zero-float",
+      "config": {
+        "type": "Float32Array",
+        "n": 25
+      },
+      "rate": "64.31682"
+    },
+    {
+      "name": "arrays/zero-float",
+      "config": {
+        "type": "Float64Array",
+        "n": 25
+      },
+      "rate": "69.92858"
+    }
+  ],
+  "arrays/zero-int": [
+    {
+      "name": "arrays/zero-int",
+      "config": {
+        "type": "Array",
+        "n": 25
+      },
+      "rate": "68.14857"
+    },
+    {
+      "name": "arrays/zero-int",
+      "config": {
+        "type": "Buffer",
+        "n": 25
+      },
+      "rate": "86.59999"
+    },
+    {
+      "name": "arrays/zero-int",
+      "config": {
+        "type": "Int8Array",
+        "n": 25
+      },
+      "rate": "85.46786"
+    },
+    {
+      "name": "arrays/zero-int",
+      "config": {
+        "type": "Uint8Array",
+        "n": 25
+      },
+      "rate": "87.67532"
+    },
+    {
+      "name": "arrays/zero-int",
+      "config": {
+        "type": "Int16Array",
+        "n": 25
+      },
+      "rate": "84.50531"
+    },
+    {
+      "name": "arrays/zero-int",
+      "config": {
+        "type": "Uint16Array",
+        "n": 25
+      },
+      "rate": "84.90292"
+    },
+    {
+      "name": "arrays/zero-int",
+      "config": {
+        "type": "Int32Array",
+        "n": 25
+      },
+      "rate": "78.82775"
+    },
+    {
+      "name": "arrays/zero-int",
+      "config": {
+        "type": "Uint32Array",
+        "n": 25
+      },
+      "rate": "75.41281"
+    },
+    {
+      "name": "arrays/zero-int",
+      "config": {
+        "type": "Float32Array",
+        "n": 25
+      },
+      "rate": "64.48511"
+    },
+    {
+      "name": "arrays/zero-int",
+      "config": {
+        "type": "Float64Array",
+        "n": 25
+      },
+      "rate": "69.13487"
+    }
+  ]
+}

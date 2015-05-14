@@ -2,15 +2,15 @@
 var chartDrawer = require('./chart-drawer')
   , Graph = require('./graph')
 
-function BufferGraph(c3, el, getData) {
-  if (!(this instanceof BufferGraph)) return new BufferGraph(c3, el, getData);
+function BuffersGraph(c3, el, getData) {
+  if (!(this instanceof BuffersGraph)) return new BuffersGraph(c3, el, getData);
   Graph.call(this, c3, el, getData)
 }
-BufferGraph.prototype = Object.create(Graph.prototype)
-BufferGraph.prototype.constructor = BufferGraph;
-BufferGraph.prototype.topic = 'buffers';
+BuffersGraph.prototype = Object.create(Graph.prototype)
+BuffersGraph.prototype.constructor = BuffersGraph;
+BuffersGraph.prototype.topic = 'buffers';
 
-BufferGraph.prototype._draw = function _draw() {
+BuffersGraph.prototype._draw = function _draw() {
   chartDrawer(this._c3, this._data, this._el)
     .draw('buffers/buffer-creation')
     .draw('buffers/buffer-compare')
@@ -20,4 +20,4 @@ BufferGraph.prototype._draw = function _draw() {
     .draw('buffers/buffer-base64-encode')
 }
 
-module.exports = BufferGraph;
+module.exports = BuffersGraph;

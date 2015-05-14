@@ -2,7 +2,8 @@
 
 var c3 = require('c3')
   , xhr = require('xhr')
-  , BufferGraph = require('./buffer-graph')
+  , BuffersGraph = require('./buffers-graph')
+  , ArraysGraph = require('./arrays-graph')
   , versions = [ 'iojs-v2.0.1', 'node-v0.10.38', 'node-v0.12.3' ]
 
 function urlsFor(topic) {
@@ -36,6 +37,7 @@ function getData(topic, cb) {
   urls.forEach(xhrData);
 }
 
-var bufferEl = document.getElementById(BufferGraph.prototype.topic)
-var bufferGraph = new BufferGraph(c3, bufferEl, getData);
-bufferGraph.draw();
+var buffersEl = document.getElementById(BuffersGraph.prototype.topic)
+var arraysEl = document.getElementById(ArraysGraph.prototype.topic)
+new BuffersGraph(c3, buffersEl, getData).draw();
+new ArraysGraph(c3, arraysEl, getData).draw();
