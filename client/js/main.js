@@ -2,21 +2,32 @@
 
 var c3           = require('c3')
   , xhr          = require('xhr')
-  , ArraysGraph  = require('./arrays-graph')
-  , BuffersGraph = require('./buffers-graph')
-  , CryptoGraph  = require('./crypto-graph')
-  , EventsGraph  = require('./events-graph')
-  , FsGraph      = require('./fs-graph')
-  , TlsGraph     = require('./tls-graph')
-  , oss          = [ 'darwin_14.3.0_x86_64_i386' ]
-  , versions     = [ 'iojs-v2.0.1', 'node-v0.10.38', 'node-v0.12.3' ]
-  , osTitle = {
-      'darwin_14.3.0_x86_64_i386': 'osx'
-  }
-  , graphs = [ ArraysGraph, BuffersGraph, CryptoGraph, EventsGraph, FsGraph, TlsGraph ]
-  , topics = graphs.map(function getTopic(x) { return x.prototype.topic })
   , currentList
   , currentShown
+
+var graphs = [ 
+    require('./arrays-graph')
+  , require('./buffers-graph')
+  , require('./crypto-graph')
+  , require('./events-graph')
+  , require('./fs-graph')
+  , require('./tls-graph')
+]
+
+var oss = [ 
+    'darwin_14.3.0_x86_64_i386'
+  , 'linux_3.16.1-1-arch_x86_64_unknown' 
+]
+var versions   = [ 
+    'iojs-v2.0.1'
+  , 'node-v0.10.38'
+  , 'node-v0.12.3' 
+]
+
+var osTitle = {
+    'darwin_14.3.0_x86_64_i386': 'osx'
+  , 'linux_3.16.1-1-arch_x86_64_unknown': 'linux'
+}
 
 function urlsFor(os, topic) {
   return versions.map(function toUrl(v) {
