@@ -5,23 +5,24 @@ var c3           = require('c3')
   , currentList
   , currentShown
 
-var graphs = [ 
+var graphs = [
     require('./arrays-graph')
   , require('./buffers-graph')
   , require('./crypto-graph')
   , require('./events-graph')
   , require('./fs-graph')
+  , require('./net-graph')
   , require('./tls-graph')
 ]
 
-var oss = [ 
+var oss = [
     'darwin_14.3.0_x86_64_i386'
-  , 'linux_3.16.1-1-arch_x86_64_unknown' 
+  , 'linux_3.16.1-1-arch_x86_64_unknown'
 ]
-var versions   = [ 
+var versions   = [
     'iojs-v2.0.1'
   , 'node-v0.10.38'
-  , 'node-v0.12.3' 
+  , 'node-v0.12.3'
 ]
 
 var osTitle = {

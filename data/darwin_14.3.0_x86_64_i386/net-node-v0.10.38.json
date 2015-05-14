@@ -1,0 +1,170 @@
+{
+  "net/net-c2s": [
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 102400,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "2.57936"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 102400,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "4.33009"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 102400,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "8.03290"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 16777216,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "2.02777"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 16777216,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "3.89531"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 16777216,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "9.03046"
+    }
+  ],
+  "net/net-pipe": [
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 102400,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "3.85769"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 102400,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "5.16593"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 102400,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "7.45296"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 16777216,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "3.05759"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 16777216,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "4.83275"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 16777216,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "7.82515"
+    }
+  ],
+  "net/net-s2c": [
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 102400,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "2.64101"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 102400,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "3.87124"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 102400,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "7.82995"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 16777216,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "2.01251"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 16777216,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "3.89317"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 16777216,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "8.95839"
+    }
+  ]
+}
