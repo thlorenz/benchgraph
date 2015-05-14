@@ -1,0 +1,248 @@
+{
+  "fs/read-stream-throughput": [
+    {
+      "name": "fs/read-stream-throughput",
+      "config": {
+        "type": "buf",
+        "size": 1024
+      },
+      "rate": "67.22368"
+    },
+    {
+      "name": "fs/read-stream-throughput",
+      "config": {
+        "type": "buf",
+        "size": 4096
+      },
+      "rate": "192.94385"
+    },
+    {
+      "name": "fs/read-stream-throughput",
+      "config": {
+        "type": "buf",
+        "size": 65535
+      },
+      "rate": "956.75477"
+    },
+    {
+      "name": "fs/read-stream-throughput",
+      "config": {
+        "type": "buf",
+        "size": 1048576
+      },
+      "rate": "1390.76696"
+    },
+    {
+      "name": "fs/read-stream-throughput",
+      "config": {
+        "type": "asc",
+        "size": 1024
+      },
+      "rate": "61.24886"
+    },
+    {
+      "name": "fs/read-stream-throughput",
+      "config": {
+        "type": "asc",
+        "size": 4096
+      },
+      "rate": "202.86537"
+    },
+    {
+      "name": "fs/read-stream-throughput",
+      "config": {
+        "type": "asc",
+        "size": 65535
+      },
+      "rate": "1023.60585"
+    },
+    {
+      "name": "fs/read-stream-throughput",
+      "config": {
+        "type": "asc",
+        "size": 1048576
+      },
+      "rate": "757.31200"
+    },
+    {
+      "name": "fs/read-stream-throughput",
+      "config": {
+        "type": "utf",
+        "size": 1024
+      },
+      "rate": "15.59084"
+    },
+    {
+      "name": "fs/read-stream-throughput",
+      "config": {
+        "type": "utf",
+        "size": 4096
+      },
+      "rate": "34.41489"
+    },
+    {
+      "name": "fs/read-stream-throughput",
+      "config": {
+        "type": "utf",
+        "size": 65535
+      },
+      "rate": "51.01186"
+    },
+    {
+      "name": "fs/read-stream-throughput",
+      "config": {
+        "type": "utf",
+        "size": 1048576
+      },
+      "rate": "48.40087"
+    }
+  ],
+  "fs/readfile": [
+    {
+      "name": "fs/readfile",
+      "config": {
+        "dur": 5,
+        "len": 1024,
+        "concurrent": 1
+      },
+      "rate": "12170.75538"
+    },
+    {
+      "name": "fs/readfile",
+      "config": {
+        "dur": 5,
+        "len": 1024,
+        "concurrent": 10
+      },
+      "rate": "22238.97805"
+    },
+    {
+      "name": "fs/readfile",
+      "config": {
+        "dur": 5,
+        "len": 16777216,
+        "concurrent": 1
+      },
+      "rate": "142.76430"
+    },
+    {
+      "name": "fs/readfile",
+      "config": {
+        "dur": 5,
+        "len": 16777216,
+        "concurrent": 10
+      },
+      "rate": "282.25858"
+    }
+  ],
+  "fs/write-stream-throughput": [
+    {
+      "name": "fs/write-stream-throughput",
+      "config": {
+        "dur": 5,
+        "type": "buf",
+        "size": 2
+      },
+      "rate": "0.11684"
+    },
+    {
+      "name": "fs/write-stream-throughput",
+      "config": {
+        "dur": 5,
+        "type": "buf",
+        "size": 1024
+      },
+      "rate": "51.43412"
+    },
+    {
+      "name": "fs/write-stream-throughput",
+      "config": {
+        "dur": 5,
+        "type": "buf",
+        "size": 65535
+      },
+      "rate": "432.89237"
+    },
+    {
+      "name": "fs/write-stream-throughput",
+      "config": {
+        "dur": 5,
+        "type": "buf",
+        "size": 1048576
+      },
+      "rate": "431.27537"
+    },
+    {
+      "name": "fs/write-stream-throughput",
+      "config": {
+        "dur": 5,
+        "type": "asc",
+        "size": 2
+      },
+      "rate": "0.10492"
+    },
+    {
+      "name": "fs/write-stream-throughput",
+      "config": {
+        "dur": 5,
+        "type": "asc",
+        "size": 1024
+      },
+      "rate": "44.67323"
+    },
+    {
+      "name": "fs/write-stream-throughput",
+      "config": {
+        "dur": 5,
+        "type": "asc",
+        "size": 65535
+      },
+      "rate": "396.26928"
+    },
+    {
+      "name": "fs/write-stream-throughput",
+      "config": {
+        "dur": 5,
+        "type": "asc",
+        "size": 1048576
+      },
+      "rate": "418.05652"
+    },
+    {
+      "name": "fs/write-stream-throughput",
+      "config": {
+        "dur": 5,
+        "type": "utf",
+        "size": 2
+      },
+      "rate": "0.10280"
+    },
+    {
+      "name": "fs/write-stream-throughput",
+      "config": {
+        "dur": 5,
+        "type": "utf",
+        "size": 1024
+      },
+      "rate": "41.06150"
+    },
+    {
+      "name": "fs/write-stream-throughput",
+      "config": {
+        "dur": 5,
+        "type": "utf",
+        "size": 65535
+      },
+      "rate": "245.23713"
+    },
+    {
+      "name": "fs/write-stream-throughput",
+      "config": {
+        "dur": 5,
+        "type": "utf",
+        "size": 1048576
+      },
+      "rate": "276.48024"
+    }
+  ]
+}
