@@ -2,19 +2,16 @@
 
 Runs {io,node}.js benchmarks and generates pretty graphs
 
-```js
-// TODO
-```
+## Notes on Benchmarks
 
-## Status
+The benchmarks were copied from the io.js repo (v2.0.1).
 
-Nix, Nada, Nichevo, Nothing --> go away!
-## Installation
+Some of them don't run with `node-v0.10` or even `node-v0.12`. When only `0.10` failed the data was included, but the
+graph only compares io.js and node-v0.12 obviously.
 
-    npm install benchgraph
+When both failed the data has not been included at all, namely for the following:
 
-## API
-
+- url *fail due to `v8 module not found`*
 
 ## License
 
