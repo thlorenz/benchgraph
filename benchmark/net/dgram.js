@@ -1,4 +1,6 @@
 // test UDP send/recv throughput
+// these benchmarks hang indefinitely for node 0.12.3 and io.js 2.0.1
+process.exit(0);
 
 var common = require('../common.js');
 var PORT = common.PORT;
