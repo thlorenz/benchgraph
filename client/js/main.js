@@ -12,7 +12,7 @@ function urlsFor(topic) {
 }
 
 function byVersion(a, b) {
-  return a._version > b._version 
+  return a._version > b._version
 }
 
 function getData(topic, cb) {
@@ -36,6 +36,6 @@ function getData(topic, cb) {
   urls.forEach(xhrData);
 }
 
-var bufferEl = document.getElementById('buffer-graphs')
+var bufferEl = document.getElementById(BufferGraph.prototype.topic)
 var bufferGraph = new BufferGraph(c3, bufferEl, getData);
 bufferGraph.draw();
