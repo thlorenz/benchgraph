@@ -3,13 +3,25 @@
 // test HTTP throughput in fragmented header case
 var common = require('../common.js');
 var net = require('net');
+var fs = require('fs');
 var PIPE;
 
 // added from io.js/test/common.js to remove that dependency
+var tmpDir = '/tmp/benchmark-http';
 if (process.platform === 'win32') {
   PIPE = '\\\\.\\pipe\\libuv-test';
 } else {
-  PIPE = exports.tmpDir + '/test.sock';
+  PIPE = tmpDir + '/test.sock';
+}
+
+try {
+  fs.accessSync(tmpDir, fs.F_OK);
+} catch (e) {
+  try { 
+    fs.mkdirSync(tmpDir);
+  } catch(e) {
+    // not sure how that'd ever happen, but it did and we don't care ;)
+  }
 }
 
 var bench = common.createBenchmark(main, {
