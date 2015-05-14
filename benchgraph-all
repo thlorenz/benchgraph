@@ -6,5 +6,6 @@ $DIR/benchgraph buffers
 $DIR/benchgraph crypto
 $DIR/benchgraph events
 $DIR/benchgraph fs
+$DIR/benchgraph http
 $DIR/benchgraph net
 $DIR/benchgraph tls

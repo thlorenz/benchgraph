@@ -14,6 +14,7 @@ When both failed the data has not been included at all, namely for the following
 - url *fail due to `v8 module not found`*
 - querytstring *fail due to `v8 module not found`*
 - crypto/rsa-encrypt-decrypt-throughput
+- http/http-server-for-chunky-client *produces no data ATM*
 
 ## License
 

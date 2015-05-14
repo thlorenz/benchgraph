@@ -11,6 +11,7 @@ var graphs = [
   , require('./crypto-graph')
   , require('./events-graph')
   , require('./fs-graph')
+  , require('./http-graph')
   , require('./net-graph')
   , require('./tls-graph')
 ]
