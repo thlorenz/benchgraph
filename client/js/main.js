@@ -66,6 +66,7 @@ function addNavListEl(os, topic) {
 
   el.innerHTML =
     '<a href="#' + key + '"' +
+      ' id="' + key + '"' +
       ' data-os="' + os + '" ' +
       'data-topic="' + topic + '">' +
       topic +
@@ -138,5 +139,9 @@ function onmainnavClick(e) {
 var mainnavEl = document.getElementById('mainnav')
 mainnavEl.onclick = onmainnavClick;
 
-var initialLinkEl = document.querySelector('#mainnav li>a')
+// try to auto select an item if it was provided via the url hash
+var initialLinkEl;
+var hash = document.location.hash
+if (hash) initialLinkEl = document.querySelector(hash)
+if (!initialLinkEl) initialLinkEl = document.querySelector('#mainnav li>a')
 selectLink(initialLinkEl)
