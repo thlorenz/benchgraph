@@ -10,6 +10,11 @@ var c3           = require('c3')
   , TlsGraph     = require('./tls-graph')
   , oss          = [ 'darwin_14.3.0_x86_64_i386' ]
   , versions     = [ 'iojs-v2.0.1', 'node-v0.10.38', 'node-v0.12.3' ]
+  , osTitle = {
+      'darwin_14.3.0_x86_64_i386': 'osx'
+  }
+  , graphs = [ ArraysGraph, BuffersGraph, CryptoGraph, EventsGraph, FsGraph, TlsGraph ]
+  , topics = graphs.map(function getTopic(x) { return x.prototype.topic })
   , currentList
   , currentShown
 
@@ -44,62 +49,75 @@ function getData(os, topic, cb) {
   urls.forEach(xhrData);
 }
 
-var arraysEl  = document.getElementById(ArraysGraph.prototype.topic)
-  , buffersEl = document.getElementById(BuffersGraph.prototype.topic)
-  , cryptoEl  = document.getElementById(CryptoGraph.prototype.topic)
-  , eventsEl  = document.getElementById(EventsGraph.prototype.topic)
-  , fsEl      = document.getElementById(FsGraph.prototype.topic)
-  , tlsEl     = document.getElementById(TlsGraph.prototype.topic)
+function addNavListEl(os, topic) {
+  var el = document.createElement('li')
+    , key = osTitle[os] + '-' + topic;
 
-var os = oss[0]
-var arraysGraph  = new ArraysGraph(c3, arraysEl, getData, os)
-  , buffersGraph = new BuffersGraph(c3, buffersEl, getData, os)
-  , cryptoGraph  = new CryptoGraph(c3, cryptoEl, getData, os)
-  , eventsGraph  = new EventsGraph(c3, eventsEl, getData, os)
-  , fsGraph      = new FsGraph(c3, fsEl, getData, os)
-  , tlsGraph     = new TlsGraph(c3, tlsEl, getData, os)
+  el.innerHTML =
+    '<a href="#' + key + '"' +
+      ' data-os="' + os + '" ' +
+      'data-topic="' + topic + '">' +
+      topic +
+    '</a>'
 
-var panes = {
-    arrays: function show() {
-      arraysGraph.draw();
-      return arraysEl;
-    }
-  , buffers: function show() {
-      buffersGraph.draw();
-      return buffersEl;
-    }
-  , crypto: function show() {
-      cryptoGraph.draw();
-      return cryptoEl;
-    }
-  , events: function show() {
-      eventsGraph.draw();
-      return eventsEl;
-    }
-  , fs: function show() {
-      fsGraph.draw();
-      return fsEl;
-    }
-  , tls: function show() {
-      tlsGraph.draw();
-      return tlsEl;
-    }
+  var ul = document.getElementById('nav-' + os);
+  ul.appendChild(el)
+  return el
 }
 
-function showPane(id) {
-  if (currentShown) currentShown.classList.add('hidden')
-  currentShown = panes[id]()
-  currentShown.classList.remove('hidden')
+function addGraphEl(os, topic) {
+  var el = document.createElement('article')
+    , key = osTitle[os] + '-' + topic;
+
+  el.setAttribute('id', key)
+  el.classList.add('hidden')
+
+  var section = document.getElementById(os);
+  section.appendChild(el);
+  return el;
+}
+
+var panesPerOs = {}
+
+function initOs(os) {
+  var panes = {}
+  panesPerOs[os] = panes
+
+  graphs.forEach(initGraph)
+
+  function initGraph(Graph) {
+    var topic = Graph.prototype.topic;
+    var navEl = addNavListEl(os, topic)
+
+    var graphEl = addGraphEl(os, topic)
+
+    var g = new Graph(c3, graphEl, getData, os)
+    panes[topic] = function show() {
+      g.draw();
+      if (currentShown) currentShown.classList.add('hidden')
+      graphEl.classList.remove('hidden')
+      currentShown = graphEl
+      return graphEl
+    }
+  }
+}
+
+oss.forEach(initOs)
+
+// Navigation
+function showPane(os, topic) {
+  panesPerOs[os][topic]();
 }
 
 function selectLink(link) {
   var li = link.parentElement
-    , show = link.dataset.show;
+    , os = link.dataset.os
+    , topic = link.dataset.topic
 
   if (currentList) currentList.classList.remove('selected-item');
   li.classList.add('selected-item')
   currentList = li;
-  showPane(show)
+  showPane(os, topic)
 }
 
 function onmainnavClick(e) {
@@ -109,5 +127,5 @@ function onmainnavClick(e) {
 var mainnavEl = document.getElementById('mainnav')
 mainnavEl.onclick = onmainnavClick;
 
-var initialLinkEl = document.getElementById('initial-link');
+var initialLinkEl = document.querySelector('#mainnav li>a')
 selectLink(initialLinkEl)
