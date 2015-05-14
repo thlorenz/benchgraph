@@ -1,0 +1,56 @@
+{
+  "events/ee-add-remove": [
+    {
+      "name": "events/ee-add-remove",
+      "config": {
+        "n": 250000
+      },
+      "rate": "905832.47815"
+    }
+  ],
+  "events/ee-emit-multi-args": [
+    {
+      "name": "events/ee-emit-multi-args",
+      "config": {
+        "n": 2000000
+      },
+      "rate": "3573524.66061"
+    }
+  ],
+  "events/ee-emit": [
+    {
+      "name": "events/ee-emit",
+      "config": {
+        "n": 2000000
+      },
+      "rate": "5159661.99983"
+    }
+  ],
+  "events/ee-listener-count": [
+    {
+      "name": "events/ee-listener-count",
+      "config": {
+        "n": 50000000
+      },
+      "rate": "232997774.90853"
+    }
+  ],
+  "events/ee-listeners-many": [
+    {
+      "name": "events/ee-listeners-many",
+      "config": {
+        "n": 5000000
+      },
+      "rate": "2302651.86970"
+    }
+  ],
+  "events/ee-listeners": [
+    {
+      "name": "events/ee-listeners",
+      "config": {
+        "n": 5000000
+      },
+      "rate": "17447581.87211"
+    }
+  ]
+}
