@@ -219,6 +219,10 @@ article .article-info a {
   font-weight: bold;
 }
 
+.hidden {
+  display: none;
+}
+
 /* clear fix */
 .clear:after {
 	display: block;

@@ -8,6 +8,7 @@ function getPrototypeName(obj) {
 function drawOn(self) {
   return function drawWrap() {
     self._draw();
+    self._drawn = true;
   }
 }
 
@@ -18,6 +19,7 @@ function Graph(c3, el, getData) {
   this._el = el;
   this._getData = getData;
   this._data = null;
+  this._drawn = false;
 }
 
 var proto = Graph.prototype;
@@ -36,6 +38,9 @@ proto._fetch = function fetch(cb) {
 
 proto.draw = function draw() {
   var self = this;
+  // we only need to draw once
+  // this makes switching between benchmarks much faster after we drew each once
+  if (self._drawn) return;
   if (!this._data) this._fetch(drawOn(this)); else drawOn(this);
 }
 
