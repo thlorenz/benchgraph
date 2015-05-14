@@ -1,0 +1,252 @@
+{
+  "net/dgram": [
+    {
+      "name": "net/dgram",
+      "config": {
+        "len": 1,
+        "num": 100,
+        "type": "send",
+        "dur": 5
+      },
+      "rate": "0.00087"
+    },
+    {
+      "name": "net/dgram",
+      "config": {
+        "len": 1,
+        "num": 100,
+        "type": "recv",
+        "dur": 5
+      },
+      "rate": "0.00029"
+    },
+    {
+      "name": "net/dgram",
+      "config": {
+        "len": 64,
+        "num": 100,
+        "type": "send",
+        "dur": 5
+      },
+      "rate": "0.05641"
+    },
+    {
+      "name": "net/dgram",
+      "config": {
+        "len": 64,
+        "num": 100,
+        "type": "recv",
+        "dur": 5
+      },
+      "rate": "0.01848"
+    },
+    {
+      "name": "net/dgram",
+      "config": {
+        "len": 256,
+        "num": 100,
+        "type": "send",
+        "dur": 5
+      },
+      "rate": "0.21770"
+    },
+    {
+      "name": "net/dgram",
+      "config": {
+        "len": 256,
+        "num": 100,
+        "type": "recv",
+        "dur": 5
+      },
+      "rate": "0.07194"
+    },
+    {
+      "name": "net/dgram",
+      "config": {
+        "len": 1024,
+        "num": 100,
+        "type": "send",
+        "dur": 5
+      },
+      "rate": "0.88010"
+    },
+    {
+      "name": "net/dgram",
+      "config": {
+        "len": 1024,
+        "num": 100,
+        "type": "recv",
+        "dur": 5
+      },
+      "rate": "0.28275"
+    }
+  ],
+  "net/net-c2s": [
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 102400,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "3.31980"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 102400,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "4.11211"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 102400,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "8.14609"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 16777216,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "2.48696"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 16777216,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "5.08928"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 16777216,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "12.16649"
+    }
+  ],
+  "net/net-pipe": [
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 102400,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "4.93427"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 102400,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "5.62220"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 102400,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "8.78158"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 16777216,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "3.72188"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 16777216,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "5.51052"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 16777216,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "9.41619"
+    }
+  ],
+  "net/net-s2c": [
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 102400,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "3.50438"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 102400,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "4.39779"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 102400,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "8.98782"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 16777216,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "2.52760"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 16777216,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "5.13109"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 16777216,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "12.20842"
+    }
+  ]
+}
