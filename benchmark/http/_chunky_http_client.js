@@ -3,7 +3,14 @@
 // test HTTP throughput in fragmented header case
 var common = require('../common.js');
 var net = require('net');
-var test = require('../../test/common.js');
+var PIPE;
+
+// added from io.js/test/common.js to remove that dependency
+if (process.platform === 'win32') {
+  PIPE = '\\\\.\\pipe\\libuv-test';
+} else {
+  PIPE = exports.tmpDir + '/test.sock';
+}
 
 var bench = common.createBenchmark(main, {
   len:  [1, 4, 8, 16, 32, 64, 128],
@@ -59,7 +66,6 @@ function main(conf) {
   var mult = 17;
   var add = 11;
   var count = 0;
-  var PIPE = test.PIPE;
   var socket = net.connect(PIPE, function() {
     bench.start();
     WriteHTTPHeaders(socket, 1, len);

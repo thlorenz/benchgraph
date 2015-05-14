@@ -5,14 +5,21 @@ var http = require('http');
 var fs = require('fs');
 var spawn = require('child_process').spawn;
 var common = require('../common.js')
-var test = require('../../test/common.js')
 var pep = path.dirname(process.argv[1]) + '/_chunky_http_client.js';
-var PIPE = test.PIPE;
+var PIPE;
+
+// added from io.js/test/common.js to remove that dependency
+if (process.platform === 'win32') {
+  PIPE = '\\\\.\\pipe\\libuv-test';
+} else {
+  PIPE = exports.tmpDir + '/test.sock';
+}
+var tmpDir = '/tmp/benchmark-http';
 
 try {
-  fs.accessSync(test.tmpDir, fs.F_OK);
+  fs.accessSync(tmpDir, fs.F_OK);
 } catch (e) {
-  fs.mkdirSync(test.tmpDir);
+  fs.mkdirSync(tmpDir);
 }
 
 var server;
