@@ -2,9 +2,9 @@
 var chartDrawer = require('./chart-drawer')
   , Graph = require('./graph')
 
-function ArraysGraph(c3, el, getData) {
-  if (!(this instanceof ArraysGraph)) return new ArraysGraph(c3, el, getData);
-  Graph.call(this, c3, el, getData)
+function ArraysGraph(c3, el, getData, os) {
+  if (!(this instanceof ArraysGraph)) return new ArraysGraph(c3, el, getData, os);
+  Graph.call(this, c3, el, getData, os)
 }
 ArraysGraph.prototype = Object.create(Graph.prototype)
 ArraysGraph.prototype.constructor = ArraysGraph;

@@ -12,14 +12,15 @@ function drawOn(self) {
   }
 }
 
-function Graph(c3, el, getData) {
-  if (!(this instanceof Graph)) return new Graph(c3, el, getData);
+function Graph(c3, el, getData, os) {
+  if (!(this instanceof Graph)) return new Graph(c3, el, getData, os);
 
   this._c3 = c3;
   this._el = el;
   this._getData = getData;
   this._data = null;
   this._drawn = false;
+  this._os = os;
 }
 
 var proto = Graph.prototype;
@@ -33,7 +34,7 @@ proto._fetch = function fetch(cb) {
     self._data = res;
     cb()
   }
-  this._getData(this.topic, ondata);
+  this._getData(this._os, this.topic, ondata);
 }
 
 proto.draw = function draw() {

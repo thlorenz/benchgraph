@@ -2,9 +2,9 @@
 var chartDrawer = require('./chart-drawer')
   , Graph = require('./graph')
 
-function CryptoGraph(c3, el, getData) {
-  if (!(this instanceof CryptoGraph)) return new CryptoGraph(c3, el, getData);
-  Graph.call(this, c3, el, getData)
+function CryptoGraph(c3, el, getData, os) {
+  if (!(this instanceof CryptoGraph)) return new CryptoGraph(c3, el, getData, os);
+  Graph.call(this, c3, el, getData, os)
 }
 CryptoGraph.prototype = Object.create(Graph.prototype)
 CryptoGraph.prototype.constructor = CryptoGraph;

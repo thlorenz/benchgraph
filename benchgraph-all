@@ -1,0 +1,9 @@
+#!/bin/sh
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+$DIR/benchgraph arrays
+$DIR/benchgraph buffers
+$DIR/benchgraph crypto
+$DIR/benchgraph events
+$DIR/benchgraph fs
+$DIR/benchgraph tls

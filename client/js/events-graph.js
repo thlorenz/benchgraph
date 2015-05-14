@@ -2,9 +2,9 @@
 var chartDrawer = require('./chart-drawer')
   , Graph = require('./graph')
 
-function EventsGraph(c3, el, getData) {
-  if (!(this instanceof EventsGraph)) return new EventsGraph(c3, el, getData);
-  Graph.call(this, c3, el, getData)
+function EventsGraph(c3, el, getData, os) {
+  if (!(this instanceof EventsGraph)) return new EventsGraph(c3, el, getData, os);
+  Graph.call(this, c3, el, getData, os)
 }
 EventsGraph.prototype = Object.create(Graph.prototype)
 EventsGraph.prototype.constructor = EventsGraph;

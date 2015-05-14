@@ -2,9 +2,9 @@
 var chartDrawer = require('./chart-drawer')
   , Graph = require('./graph')
 
-function BuffersGraph(c3, el, getData) {
-  if (!(this instanceof BuffersGraph)) return new BuffersGraph(c3, el, getData);
-  Graph.call(this, c3, el, getData)
+function BuffersGraph(c3, el, getData, os) {
+  if (!(this instanceof BuffersGraph)) return new BuffersGraph(c3, el, getData, os);
+  Graph.call(this, c3, el, getData, os)
 }
 BuffersGraph.prototype = Object.create(Graph.prototype)
 BuffersGraph.prototype.constructor = BuffersGraph;
