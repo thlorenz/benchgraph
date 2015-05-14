@@ -44,11 +44,15 @@ if (module === require.main) {
 }
 
 function hasWrk() {
-  var result = child_process.spawnSync('wrk', ['-h']);
-  if (result.error && result.error.code === 'ENOENT') {
-    console.error('Couldn\'t locate `wrk` which is needed for running ' +
-      'benchmarks. Check benchmark/README.md for further instructions.');
-      process.exit(-1);
+  if (typeof child_process.spawnSync === 'function') {
+    var result = child_process.spawnSync('wrk', ['-h']);
+    if (result.error && result.error.code === 'ENOENT') {
+      console.error('Couldn\'t locate `wrk` which is needed for running ' +
+        'benchmarks. Check benchmark/README.md for further instructions.');
+        process.exit(-1);
+    }
+  } else {
+    console.error('No spawnSync found, assuming wrk is installed ... ');
   }
 }
 
