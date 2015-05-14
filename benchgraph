@@ -1,0 +1,21 @@
+#!/bin/sh
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+echo "Running $1 benchmarks"
+
+export PATH=`npm bin`/:$PATH
+
+# 0.10
+export NODE=`nave use 0.10 which node`
+export BENCHMARK_NAME=$1-node
+$DIR/graph.sh $NODE $DIR/benchmark/common.js $1
+
+# 0.12
+export NODE=`nave use 0.12 which node`
+export BENCHMARK_NAME=$1-node
+$DIR/graph.sh $NODE $DIR/benchmark/common.js $1
+
+# io.js latest
+export NODE=`nave use latest which node`
+export BENCHMARK_NAME=$1-iojs
+$DIR/graph.sh node $DIR/benchmark/common.js $1

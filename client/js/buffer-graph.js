@@ -6,7 +6,7 @@ function BufferGraph(c3, el, getData) {
   this._c3 = c3;
   this._el = el;
   this._getData = getData;
-  this._topic = 'buffer';
+  this._topic = 'buffers';
   this._data = null;
 }
 
@@ -32,7 +32,6 @@ proto.draw = function draw() {
     chartDrawer(self._c3, self._data, self._el)
       .draw('buffers/buffer-creation')
       .draw('buffers/buffer-compare')
-//      .draw('buffers/buffer-iterate')
       .draw('buffers/buffer-read')
       .draw('buffers/buffer-write')
       .draw('buffers/dataview-set')

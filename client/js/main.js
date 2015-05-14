@@ -3,7 +3,7 @@
 var c3 = require('c3')
   , xhr = require('xhr')
   , BufferGraph = require('./buffer-graph')
-  , versions = [ 'iojs-v2.0.1', 'node-v0.10.38', 'node-v0.12.2' ]
+  , versions = [ 'iojs-v2.0.1', 'node-v0.10.38', 'node-v0.12.3' ]
 
 function urlsFor(topic) {
   return versions.map(function toUrl(v) {
