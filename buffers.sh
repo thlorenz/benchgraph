@@ -13,6 +13,11 @@ export NODE=`nave use 0.12 which node`
 export BENCHMARK_NAME=buffer-node
 $DIR/graph.sh $NODE $DIR/benchmark/common.js buffers
 
+# io.js v1
+export NODE=`nave use 1.8 which node`
+export BENCHMARK_NAME=buffer-iojs
+$DIR/graph.sh node $DIR/benchmark/common.js buffers
+
 # io.js latest
 export NODE=`nave use latest which node`
 export BENCHMARK_NAME=buffer-iojs
