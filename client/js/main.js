@@ -17,8 +17,8 @@ var graphs = [
 ]
 
 var oss = [
-    'darwin_14.3.0_x86_64_i386'
-  , 'linux_3.16.1-1-arch_x86_64_unknown'
+    'linux_3.16.1-1-arch_x86_64_unknown'
+  , 'darwin_14.3.0_x86_64_i386'
 ]
 var versions   = [
     'iojs-v2.0.1'
@@ -63,31 +63,56 @@ function getData(os, topic, cb) {
   urls.forEach(xhrData);
 }
 
-function addNavListEl(os, topic) {
+function addNavList(os) {
+  // cut off _i386 and similar
+  var summary = os.split('_').slice(0, -1).join('_')
+  var nav = document.getElementById('mainnav')
+  var h3 = document.createElement('h3')
+  var p = document.createElement('p')
+  var ul = document.createElement('ul')
+  h3.innerHTML = osTitle[os]
+
+  p.innerHTML = '<em>' + summary + '</em>'
+  ul.setAttribute('id', 'nav-' + os)
+
+  nav.appendChild(h3)
+  nav.appendChild(p)
+  nav.appendChild(ul)
+
+  return ul;
+}
+
+function addNavListEl(os, topic, ul) {
   var el = document.createElement('li')
     , key = osTitle[os] + '-' + topic;
 
   el.innerHTML =
     '<a href="#' + key + '"' +
       ' id="' + key + '"' +
-      ' data-os="' + os + '" ' +
-      'data-topic="' + topic + '">' +
+      ' data-os="' + os + '"' +
+      ' data-topic="' + topic + '">' +
       topic +
     '</a>'
 
-  var ul = document.getElementById('nav-' + os);
   ul.appendChild(el)
   return el
 }
 
-function addGraphEl(os, topic) {
+function addOSContentPane(os) {
+  var content = document.getElementById('content')
+  var section = document.createElement('section')
+  section.setAttribute('id', os)
+  content.appendChild(section)
+  return section
+}
+
+function addGraphEl(os, topic, section) {
   var el = document.createElement('article')
     , key = osTitle[os] + '-' + topic;
 
   el.setAttribute('id', key)
   el.classList.add('hidden')
 
-  var section = document.getElementById(os);
   section.appendChild(el);
   return el;
 }
@@ -97,14 +122,16 @@ var panesPerOs = {}
 function initOs(os) {
   var panes = {}
   panesPerOs[os] = panes
+  var ul = addNavList(os)
+  var section = addOSContentPane(os)
 
   graphs.forEach(initGraph)
 
   function initGraph(Graph) {
     var topic = Graph.prototype.topic;
-    var navEl = addNavListEl(os, topic)
+    var navEl = addNavListEl(os, topic, ul)
 
-    var graphEl = addGraphEl(os, topic)
+    var graphEl = addGraphEl(os, topic, section)
 
     var g = new Graph(c3, graphEl, getData, os)
     panes[topic] = function show() {
@@ -128,7 +155,7 @@ function changeLocation(os, topic) {
   // do so without scrolling window
   var x = window.pageXOffset
     , y = window.pageYOffset
-  document.location.hash = osTitle[os] + '-' + topic; 
+  document.location.hash = osTitle[os] + '-' + topic;
   window.scrollTo(x, y)
 }
 
