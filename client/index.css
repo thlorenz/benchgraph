@@ -133,23 +133,22 @@ section#body {
 
 /* content and sidebar */
 section#content {
-	margin-left: 250px;
 	padding: 20px;
 	background-color: #fff;
 	top: 0;
 	bottom: 0;
+	width: 77%;
 }
 .column-left {
   left:0;
 }
 .column-right {
-  margin-left: 250px;
   right: 0;
   float: right;
 }
 aside#sidebar {
-	width:250px;
-	position: fixed;
+	width:20%;
+	position: absolute;
 	background: #80B763;
 }
 nav#mainnav ul {
