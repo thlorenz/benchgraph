@@ -18,6 +18,24 @@ When both failed the data has not been included at all, namely for the following
 - crypto/rsa-encrypt-decrypt-throughput
 - http/http-server-for-chunky-client *produces no data ATM*
 
+## Adding benchmarks for your OS
+
+If you're running a nix OS you'd like to benchmark, i.e. you may want to try an older kernel, you can easily do that and
+include the data.
+
+- run [`./benchgraph-all`](https://github.com/thlorenz/benchgraph/blob/gh-pages/benchgraph-all) on your machine
+- a folder with your OS's specs will appear in the [data](https://github.com/thlorenz/benchgraph/tree/gh-pages/data)
+  folder
+- note its exact name and add it to the list of OSs
+  [here](https://github.com/thlorenz/benchgraph/blob/b15ea267ab35f316579d87d95c517063db9439fd/client/js/main.js#L19)
+- additionally select [a nice title for
+  it](https://github.com/thlorenz/benchgraph/blob/b15ea267ab35f316579d87d95c517063db9439fd/client/js/main.js#L29)
+- run `npm run bundle`
+- then submit a pull request
+
+In order to test things while you're working on this you can run `npm run watch` and serve the root in order to inspect
+the page after every change.
+
 ## License
 
 MIT
