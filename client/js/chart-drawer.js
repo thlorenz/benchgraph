@@ -103,7 +103,7 @@ proto._drawGraph = function _drawGraph(columns, categories, title, idx, len) {
   if (len > 1) title += ' (' + (idx + 1) + '/' + len + ')'
   var chartData = {
       data: { columns: columns, type: 'bar' }
-    , size: { width: 500, height: 312.5 }
+    , size: { width: 400, height: 250 }
     , axis: {
         x: {
             type: 'category'
@@ -122,7 +122,7 @@ proto._drawGraph = function _drawGraph(columns, categories, title, idx, len) {
       }
     , bindto: attachNewElementTo(this._el, this._benchmarkName + '-' + idx)
     , bar: {
-        width: { ratio: 0.4 }
+        width: { ratio: 0.7 }
       }
     , legend: {
         position: 'inset'

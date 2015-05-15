@@ -124,6 +124,14 @@ function showPane(os, topic) {
   panesPerOs[os][topic]();
 }
 
+function changeLocation(os, topic) {
+  // do so without scrolling window
+  var x = window.pageXOffset
+    , y = window.pageYOffset
+  document.location.hash = osTitle[os] + '-' + topic; 
+  window.scrollTo(x, y)
+}
+
 function selectLink(link) {
   var li = link.parentElement
     , os = link.dataset.os
@@ -132,11 +140,14 @@ function selectLink(link) {
   if (currentList) currentList.classList.remove('selected-item');
   li.classList.add('selected-item')
   currentList = li;
+  changeLocation(os, topic)
   showPane(os, topic)
 }
 
 function onmainnavClick(e) {
   selectLink(e.target)
+  // changing location manually to avoid window scrolling
+  e.preventDefault()
 }
 
 var mainnavEl = document.getElementById('mainnav')
