@@ -22,8 +22,8 @@ var oss = [
 ]
 var versions   = [
     'iojs-v2.0.1'
-  , 'node-v0.10.38'
   , 'node-v0.12.3'
+  , 'node-v0.10.38'
 ]
 
 var osTitle = {
@@ -38,7 +38,7 @@ function urlsFor(os, topic) {
 }
 
 function byVersion(a, b) {
-  return a._version > b._version
+  return a._sortIdx - b._sortIdx;
 }
 
 function getData(os, topic, cb) {
@@ -52,6 +52,7 @@ function getData(os, topic, cb) {
       if (err) { abort = true; return cb(err) }
       var obj = JSON.parse(body);
       obj._version = versions[idx];
+      obj._sortIdx = idx;
       data.push(obj);
       if (!--tasks) cb(null, data.sort(byVersion));
     }
