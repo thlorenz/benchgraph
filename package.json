@@ -1,6 +1,6 @@
 {
   "name": "benchgraph",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Runs {io,node}.js benchmarks and generates pretty graphs",
   "main": "index.js",
   "scripts": {
