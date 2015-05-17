@@ -7,7 +7,7 @@
         "size": 1,
         "c": 100
       },
-      "rate": "12484.89000"
+      "rate": "12822.19000"
     },
     {
       "name": "http/chunked",
@@ -16,7 +16,7 @@
         "size": 64,
         "c": 100
       },
-      "rate": "12465.08000"
+      "rate": "12764.19000"
     },
     {
       "name": "http/chunked",
@@ -25,7 +25,7 @@
         "size": 256,
         "c": 100
       },
-      "rate": "12559.61000"
+      "rate": "12594.63000"
     },
     {
       "name": "http/chunked",
@@ -34,7 +34,7 @@
         "size": 1,
         "c": 100
       },
-      "rate": "7135.93000"
+      "rate": "7161.22000"
     },
     {
       "name": "http/chunked",
@@ -43,7 +43,7 @@
         "size": 64,
         "c": 100
       },
-      "rate": "6983.00000"
+      "rate": "6830.08000"
     },
     {
       "name": "http/chunked",
@@ -52,7 +52,7 @@
         "size": 256,
         "c": 100
       },
-      "rate": "6875.25000"
+      "rate": "6826.90000"
     },
     {
       "name": "http/chunked",
@@ -61,7 +61,7 @@
         "size": 1,
         "c": 100
       },
-      "rate": "4575.75000"
+      "rate": "4629.66000"
     },
     {
       "name": "http/chunked",
@@ -70,7 +70,7 @@
         "size": 64,
         "c": 100
       },
-      "rate": "4342.00000"
+      "rate": "4233.72000"
     },
     {
       "name": "http/chunked",
@@ -79,7 +79,7 @@
         "size": 256,
         "c": 100
       },
-      "rate": "4322.96000"
+      "rate": "4402.04000"
     },
     {
       "name": "http/chunked",
@@ -88,7 +88,7 @@
         "size": 1,
         "c": 100
       },
-      "rate": "2649.24000"
+      "rate": "2667.80000"
     },
     {
       "name": "http/chunked",
@@ -97,7 +97,7 @@
         "size": 64,
         "c": 100
       },
-      "rate": "2473.76000"
+      "rate": "2573.41000"
     },
     {
       "name": "http/chunked",
@@ -106,7 +106,7 @@
         "size": 256,
         "c": 100
       },
-      "rate": "2514.99000"
+      "rate": "2525.57000"
     }
   ],
   "http/client-request-body": [
@@ -118,7 +118,7 @@
         "bytes": 32,
         "method": "write"
       },
-      "rate": "5966.00286"
+      "rate": "6066.16814"
     },
     {
       "name": "http/client-request-body",
@@ -128,7 +128,7 @@
         "bytes": 32,
         "method": "end"
       },
-      "rate": "5972.61303"
+      "rate": "6242.15137"
     },
     {
       "name": "http/client-request-body",
@@ -138,7 +138,7 @@
         "bytes": 256,
         "method": "write"
       },
-      "rate": "5769.56512"
+      "rate": "6293.37227"
     },
     {
       "name": "http/client-request-body",
@@ -148,7 +148,7 @@
         "bytes": 256,
         "method": "end"
       },
-      "rate": "5924.72062"
+      "rate": "6252.66935"
     },
     {
       "name": "http/client-request-body",
@@ -158,7 +158,7 @@
         "bytes": 1024,
         "method": "write"
       },
-      "rate": "5721.66973"
+      "rate": "5804.09026"
     },
     {
       "name": "http/client-request-body",
@@ -168,7 +168,7 @@
         "bytes": 1024,
         "method": "end"
       },
-      "rate": "5609.51286"
+      "rate": "5866.62052"
     },
     {
       "name": "http/client-request-body",
@@ -178,7 +178,7 @@
         "bytes": 32,
         "method": "write"
       },
-      "rate": "5854.76791"
+      "rate": "6206.36696"
     },
     {
       "name": "http/client-request-body",
@@ -188,7 +188,7 @@
         "bytes": 32,
         "method": "end"
       },
-      "rate": "5973.46387"
+      "rate": "6224.46182"
     },
     {
       "name": "http/client-request-body",
@@ -198,7 +198,7 @@
         "bytes": 256,
         "method": "write"
       },
-      "rate": "5902.80765"
+      "rate": "6265.70857"
     },
     {
       "name": "http/client-request-body",
@@ -208,7 +208,7 @@
         "bytes": 256,
         "method": "end"
       },
-      "rate": "5702.14618"
+      "rate": "6274.75290"
     },
     {
       "name": "http/client-request-body",
@@ -218,7 +218,7 @@
         "bytes": 1024,
         "method": "write"
       },
-      "rate": "5593.59270"
+      "rate": "6066.26516"
     },
     {
       "name": "http/client-request-body",
@@ -228,7 +228,7 @@
         "bytes": 1024,
         "method": "end"
       },
-      "rate": "5481.27129"
+      "rate": "5737.84517"
     },
     {
       "name": "http/client-request-body",
@@ -238,7 +238,7 @@
         "bytes": 32,
         "method": "write"
       },
-      "rate": "5501.34734"
+      "rate": "5670.99186"
     },
     {
       "name": "http/client-request-body",
@@ -248,7 +248,7 @@
         "bytes": 32,
         "method": "end"
       },
-      "rate": "5402.22340"
+      "rate": "5720.81671"
     },
     {
       "name": "http/client-request-body",
@@ -258,7 +258,7 @@
         "bytes": 256,
         "method": "write"
       },
-      "rate": "5544.63699"
+      "rate": "5668.98338"
     },
     {
       "name": "http/client-request-body",
@@ -268,7 +268,7 @@
         "bytes": 256,
         "method": "end"
       },
-      "rate": "5558.03314"
+      "rate": "5599.32139"
     },
     {
       "name": "http/client-request-body",
@@ -278,7 +278,7 @@
         "bytes": 1024,
         "method": "write"
       },
-      "rate": "5282.34320"
+      "rate": "5423.87333"
     },
     {
       "name": "http/client-request-body",
@@ -288,7 +288,7 @@
         "bytes": 1024,
         "method": "end"
       },
-      "rate": "5256.35212"
+      "rate": "5341.09045"
     }
   ],
   "http/cluster": [
@@ -299,7 +299,7 @@
         "length": 4,
         "c": 50
       },
-      "rate": "29646.16000"
+      "rate": "30908.39000"
     },
     {
       "name": "http/cluster",
@@ -308,7 +308,7 @@
         "length": 4,
         "c": 500
       },
-      "rate": "26218.81000"
+      "rate": "27490.39000"
     },
     {
       "name": "http/cluster",
@@ -317,7 +317,7 @@
         "length": 1024,
         "c": 50
       },
-      "rate": "26209.33000"
+      "rate": "27495.57000"
     },
     {
       "name": "http/cluster",
@@ -326,7 +326,7 @@
         "length": 1024,
         "c": 500
       },
-      "rate": "23918.63000"
+      "rate": "25292.35000"
     },
     {
       "name": "http/cluster",
@@ -335,7 +335,7 @@
         "length": 102400,
         "c": 50
       },
-      "rate": "897.30000"
+      "rate": "903.21000"
     },
     {
       "name": "http/cluster",
@@ -344,7 +344,7 @@
         "length": 102400,
         "c": 500
       },
-      "rate": "899.33000"
+      "rate": "911.01000"
     },
     {
       "name": "http/cluster",
@@ -353,7 +353,7 @@
         "length": 4,
         "c": 50
       },
-      "rate": "25696.65000"
+      "rate": "27919.40000"
     },
     {
       "name": "http/cluster",
@@ -362,7 +362,7 @@
         "length": 4,
         "c": 500
       },
-      "rate": "23213.07000"
+      "rate": "25201.69000"
     },
     {
       "name": "http/cluster",
@@ -371,7 +371,7 @@
         "length": 1024,
         "c": 50
       },
-      "rate": "26152.86000"
+      "rate": "27590.11000"
     },
     {
       "name": "http/cluster",
@@ -380,7 +380,7 @@
         "length": 1024,
         "c": 500
       },
-      "rate": "23264.87000"
+      "rate": "24993.85000"
     },
     {
       "name": "http/cluster",
@@ -389,7 +389,7 @@
         "length": 102400,
         "c": 50
       },
-      "rate": "19736.96000"
+      "rate": "20817.86000"
     },
     {
       "name": "http/cluster",
@@ -398,7 +398,7 @@
         "length": 102400,
         "c": 500
       },
-      "rate": "18056.07000"
+      "rate": "19041.51000"
     }
   ],
   "http/end-vs-write-end": [
@@ -410,7 +410,7 @@
         "c": 100,
         "method": "write"
       },
-      "rate": "7730.60000"
+      "rate": "8068.66000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -420,7 +420,7 @@
         "c": 100,
         "method": "end"
       },
-      "rate": "7842.60000"
+      "rate": "7926.87000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -430,7 +430,7 @@
         "c": 100,
         "method": "write"
       },
-      "rate": "4063.98000"
+      "rate": "4207.62000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -440,7 +440,7 @@
         "c": 100,
         "method": "end"
       },
-      "rate": "4075.01000"
+      "rate": "4187.67000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -450,7 +450,7 @@
         "c": 100,
         "method": "write"
       },
-      "rate": "2490.37000"
+      "rate": "2519.13000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -460,7 +460,7 @@
         "c": 100,
         "method": "end"
       },
-      "rate": "1518.15000"
+      "rate": "1557.00000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -470,7 +470,7 @@
         "c": 100,
         "method": "write"
       },
-      "rate": "472.82000"
+      "rate": "483.49000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -480,7 +480,7 @@
         "c": 100,
         "method": "end"
       },
-      "rate": "523.62000"
+      "rate": "538.67000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -490,7 +490,7 @@
         "c": 100,
         "method": "write"
       },
-      "rate": "6649.31000"
+      "rate": "6575.22000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -500,7 +500,7 @@
         "c": 100,
         "method": "end"
       },
-      "rate": "6652.89000"
+      "rate": "6591.12000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -510,7 +510,7 @@
         "c": 100,
         "method": "write"
       },
-      "rate": "3412.42000"
+      "rate": "3533.99000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -520,7 +520,7 @@
         "c": 100,
         "method": "end"
       },
-      "rate": "3458.72000"
+      "rate": "3539.11000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -530,7 +530,7 @@
         "c": 100,
         "method": "write"
       },
-      "rate": "2047.26000"
+      "rate": "2093.93000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -540,7 +540,7 @@
         "c": 100,
         "method": "end"
       },
-      "rate": "2037.81000"
+      "rate": "2074.31000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -550,7 +550,7 @@
         "c": 100,
         "method": "write"
       },
-      "rate": "592.51000"
+      "rate": "605.44000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -560,7 +560,7 @@
         "c": 100,
         "method": "end"
       },
-      "rate": "455.10000"
+      "rate": "463.83000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -570,7 +570,7 @@
         "c": 100,
         "method": "write"
       },
-      "rate": "12566.70000"
+      "rate": "12981.60000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -580,7 +580,7 @@
         "c": 100,
         "method": "end"
       },
-      "rate": "12758.10000"
+      "rate": "12741.12000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -590,7 +590,7 @@
         "c": 100,
         "method": "write"
       },
-      "rate": "10573.99000"
+      "rate": "10897.23000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -600,7 +600,7 @@
         "c": 100,
         "method": "end"
       },
-      "rate": "10457.66000"
+      "rate": "10860.87000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -610,7 +610,7 @@
         "c": 100,
         "method": "write"
       },
-      "rate": "8412.66000"
+      "rate": "8485.08000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -620,7 +620,7 @@
         "c": 100,
         "method": "end"
       },
-      "rate": "8337.71000"
+      "rate": "8639.05000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -630,7 +630,7 @@
         "c": 100,
         "method": "write"
       },
-      "rate": "3818.09000"
+      "rate": "3941.07000"
     },
     {
       "name": "http/end-vs-write-end",
@@ -640,7 +640,7 @@
         "c": 100,
         "method": "end"
       },
-      "rate": "3764.41000"
+      "rate": "3892.40000"
     }
   ],
   "http/_chunky_http_client": [
@@ -651,7 +651,7 @@
         "num": 5,
         "type": "send"
       },
-      "rate": "164.99816"
+      "rate": "150.93355"
     },
     {
       "name": "http/_chunky_http_client",
@@ -660,7 +660,7 @@
         "num": 50,
         "type": "send"
       },
-      "rate": "259.61231"
+      "rate": "261.15099"
     },
     {
       "name": "http/_chunky_http_client",
@@ -669,7 +669,7 @@
         "num": 500,
         "type": "send"
       },
-      "rate": "305.11490"
+      "rate": "301.40012"
     },
     {
       "name": "http/_chunky_http_client",
@@ -678,7 +678,7 @@
         "num": 2000,
         "type": "send"
       },
-      "rate": "304.50811"
+      "rate": "310.27319"
     },
     {
       "name": "http/_chunky_http_client",
@@ -687,7 +687,7 @@
         "num": 5,
         "type": "send"
       },
-      "rate": "246.97254"
+      "rate": "247.91741"
     },
     {
       "name": "http/_chunky_http_client",
@@ -696,7 +696,7 @@
         "num": 50,
         "type": "send"
       },
-      "rate": "284.33919"
+      "rate": "246.33736"
     },
     {
       "name": "http/_chunky_http_client",
@@ -705,7 +705,7 @@
         "num": 500,
         "type": "send"
       },
-      "rate": "294.91423"
+      "rate": "272.85060"
     },
     {
       "name": "http/_chunky_http_client",
@@ -714,7 +714,7 @@
         "num": 2000,
         "type": "send"
       },
-      "rate": "306.45035"
+      "rate": "297.07069"
     },
     {
       "name": "http/_chunky_http_client",
@@ -723,7 +723,7 @@
         "num": 5,
         "type": "send"
       },
-      "rate": "258.63225"
+      "rate": "249.80462"
     },
     {
       "name": "http/_chunky_http_client",
@@ -732,7 +732,7 @@
         "num": 50,
         "type": "send"
       },
-      "rate": "272.00668"
+      "rate": "255.33676"
     },
     {
       "name": "http/_chunky_http_client",
@@ -741,7 +741,7 @@
         "num": 500,
         "type": "send"
       },
-      "rate": "306.26731"
+      "rate": "297.74652"
     },
     {
       "name": "http/_chunky_http_client",
@@ -750,7 +750,7 @@
         "num": 2000,
         "type": "send"
       },
-      "rate": "320.73334"
+      "rate": "298.55893"
     },
     {
       "name": "http/_chunky_http_client",
@@ -759,7 +759,7 @@
         "num": 5,
         "type": "send"
       },
-      "rate": "247.99831"
+      "rate": "167.70577"
     },
     {
       "name": "http/_chunky_http_client",
@@ -768,7 +768,7 @@
         "num": 50,
         "type": "send"
       },
-      "rate": "275.00835"
+      "rate": "274.58436"
     },
     {
       "name": "http/_chunky_http_client",
@@ -777,7 +777,7 @@
         "num": 500,
         "type": "send"
       },
-      "rate": "290.75405"
+      "rate": "315.79800"
     },
     {
       "name": "http/_chunky_http_client",
@@ -786,7 +786,7 @@
         "num": 2000,
         "type": "send"
       },
-      "rate": "318.78980"
+      "rate": "290.69867"
     },
     {
       "name": "http/_chunky_http_client",
@@ -795,7 +795,7 @@
         "num": 5,
         "type": "send"
       },
-      "rate": "228.32256"
+      "rate": "239.98580"
     },
     {
       "name": "http/_chunky_http_client",
@@ -804,7 +804,7 @@
         "num": 50,
         "type": "send"
       },
-      "rate": "252.25167"
+      "rate": "273.78905"
     },
     {
       "name": "http/_chunky_http_client",
@@ -813,7 +813,7 @@
         "num": 500,
         "type": "send"
       },
-      "rate": "298.94756"
+      "rate": "311.78966"
     },
     {
       "name": "http/_chunky_http_client",
@@ -822,7 +822,7 @@
         "num": 2000,
         "type": "send"
       },
-      "rate": "309.97460"
+      "rate": "311.99849"
     },
     {
       "name": "http/_chunky_http_client",
@@ -831,7 +831,7 @@
         "num": 5,
         "type": "send"
       },
-      "rate": "229.03616"
+      "rate": "226.92832"
     },
     {
       "name": "http/_chunky_http_client",
@@ -840,7 +840,7 @@
         "num": 50,
         "type": "send"
       },
-      "rate": "267.98337"
+      "rate": "252.65051"
     },
     {
       "name": "http/_chunky_http_client",
@@ -849,7 +849,7 @@
         "num": 500,
         "type": "send"
       },
-      "rate": "304.99934"
+      "rate": "318.60538"
     },
     {
       "name": "http/_chunky_http_client",
@@ -858,7 +858,7 @@
         "num": 2000,
         "type": "send"
       },
-      "rate": "310.95778"
+      "rate": "314.34457"
     },
     {
       "name": "http/_chunky_http_client",
@@ -867,7 +867,7 @@
         "num": 5,
         "type": "send"
       },
-      "rate": "206.14996"
+      "rate": "213.54345"
     },
     {
       "name": "http/_chunky_http_client",
@@ -876,7 +876,7 @@
         "num": 50,
         "type": "send"
       },
-      "rate": "258.84147"
+      "rate": "277.20189"
     },
     {
       "name": "http/_chunky_http_client",
@@ -885,7 +885,7 @@
         "num": 500,
         "type": "send"
       },
-      "rate": "288.08585"
+      "rate": "291.40248"
     },
     {
       "name": "http/_chunky_http_client",
@@ -894,7 +894,7 @@
         "num": 2000,
         "type": "send"
       },
-      "rate": "310.42360"
+      "rate": "321.96198"
     }
   ],
   "http/simple": [
@@ -906,7 +906,7 @@
         "chunks": 0,
         "c": 50
       },
-      "rate": "16079.32000"
+      "rate": "16497.96000"
     },
     {
       "name": "http/simple",
@@ -916,7 +916,7 @@
         "chunks": 0,
         "c": 500
       },
-      "rate": "14200.21000"
+      "rate": "14370.99000"
     },
     {
       "name": "http/simple",
@@ -926,7 +926,7 @@
         "chunks": 1,
         "c": 50
       },
-      "rate": "13768.58000"
+      "rate": "13983.22000"
     },
     {
       "name": "http/simple",
@@ -936,7 +936,7 @@
         "chunks": 1,
         "c": 500
       },
-      "rate": "12150.82000"
+      "rate": "12601.26000"
     },
     {
       "name": "http/simple",
@@ -946,7 +946,7 @@
         "chunks": 4,
         "c": 50
       },
-      "rate": "9123.19000"
+      "rate": "9153.76000"
     },
     {
       "name": "http/simple",
@@ -956,7 +956,7 @@
         "chunks": 4,
         "c": 500
       },
-      "rate": "8424.87000"
+      "rate": "8649.87000"
     },
     {
       "name": "http/simple",
@@ -966,7 +966,7 @@
         "chunks": 0,
         "c": 50
       },
-      "rate": "14439.87000"
+      "rate": "14834.73000"
     },
     {
       "name": "http/simple",
@@ -976,7 +976,7 @@
         "chunks": 0,
         "c": 500
       },
-      "rate": "12860.45000"
+      "rate": "13210.18000"
     },
     {
       "name": "http/simple",
@@ -986,7 +986,7 @@
         "chunks": 1,
         "c": 50
       },
-      "rate": "10408.14000"
+      "rate": "10589.31000"
     },
     {
       "name": "http/simple",
@@ -996,7 +996,7 @@
         "chunks": 1,
         "c": 500
       },
-      "rate": "9518.25000"
+      "rate": "9646.03000"
     },
     {
       "name": "http/simple",
@@ -1006,7 +1006,7 @@
         "chunks": 4,
         "c": 50
       },
-      "rate": "7909.36000"
+      "rate": "8512.80000"
     },
     {
       "name": "http/simple",
@@ -1016,7 +1016,7 @@
         "chunks": 4,
         "c": 500
       },
-      "rate": "7701.93000"
+      "rate": "7849.08000"
     },
     {
       "name": "http/simple",
@@ -1026,7 +1026,7 @@
         "chunks": 0,
         "c": 50
       },
-      "rate": "501.60000"
+      "rate": "508.81000"
     },
     {
       "name": "http/simple",
@@ -1036,7 +1036,7 @@
         "chunks": 0,
         "c": 500
       },
-      "rate": "489.34000"
+      "rate": "496.00000"
     },
     {
       "name": "http/simple",
@@ -1046,7 +1046,7 @@
         "chunks": 1,
         "c": 50
       },
-      "rate": "289.53000"
+      "rate": "295.07000"
     },
     {
       "name": "http/simple",
@@ -1056,7 +1056,7 @@
         "chunks": 1,
         "c": 500
       },
-      "rate": "277.84000"
+      "rate": "283.42000"
     },
     {
       "name": "http/simple",
@@ -1066,7 +1066,7 @@
         "chunks": 4,
         "c": 50
       },
-      "rate": "3369.52000"
+      "rate": "3394.01000"
     },
     {
       "name": "http/simple",
@@ -1076,7 +1076,7 @@
         "chunks": 4,
         "c": 500
       },
-      "rate": "2878.65000"
+      "rate": "2890.86000"
     },
     {
       "name": "http/simple",
@@ -1086,7 +1086,7 @@
         "chunks": 0,
         "c": 50
       },
-      "rate": "14171.44000"
+      "rate": "14202.20000"
     },
     {
       "name": "http/simple",
@@ -1096,7 +1096,7 @@
         "chunks": 0,
         "c": 500
       },
-      "rate": "12453.08000"
+      "rate": "12757.79000"
     },
     {
       "name": "http/simple",
@@ -1106,7 +1106,7 @@
         "chunks": 1,
         "c": 50
       },
-      "rate": "13022.68000"
+      "rate": "13334.43000"
     },
     {
       "name": "http/simple",
@@ -1116,7 +1116,7 @@
         "chunks": 1,
         "c": 500
       },
-      "rate": "11887.89000"
+      "rate": "11942.57000"
     },
     {
       "name": "http/simple",
@@ -1126,7 +1126,7 @@
         "chunks": 4,
         "c": 50
       },
-      "rate": "11329.06000"
+      "rate": "11549.35000"
     },
     {
       "name": "http/simple",
@@ -1136,7 +1136,7 @@
         "chunks": 4,
         "c": 500
       },
-      "rate": "10276.47000"
+      "rate": "10309.40000"
     },
     {
       "name": "http/simple",
@@ -1146,7 +1146,7 @@
         "chunks": 0,
         "c": 50
       },
-      "rate": "13641.19000"
+      "rate": "14390.62000"
     },
     {
       "name": "http/simple",
@@ -1156,7 +1156,7 @@
         "chunks": 0,
         "c": 500
       },
-      "rate": "12492.86000"
+      "rate": "12789.75000"
     },
     {
       "name": "http/simple",
@@ -1166,7 +1166,7 @@
         "chunks": 1,
         "c": 50
       },
-      "rate": "13106.81000"
+      "rate": "13029.72000"
     },
     {
       "name": "http/simple",
@@ -1176,7 +1176,7 @@
         "chunks": 1,
         "c": 500
       },
-      "rate": "11583.67000"
+      "rate": "11757.98000"
     },
     {
       "name": "http/simple",
@@ -1186,7 +1186,7 @@
         "chunks": 4,
         "c": 50
       },
-      "rate": "10947.79000"
+      "rate": "11351.22000"
     },
     {
       "name": "http/simple",
@@ -1196,7 +1196,7 @@
         "chunks": 4,
         "c": 500
       },
-      "rate": "9947.67000"
+      "rate": "10351.92000"
     },
     {
       "name": "http/simple",
@@ -1206,7 +1206,7 @@
         "chunks": 0,
         "c": 50
       },
-      "rate": "11279.86000"
+      "rate": "11320.50000"
     },
     {
       "name": "http/simple",
@@ -1216,7 +1216,7 @@
         "chunks": 0,
         "c": 500
       },
-      "rate": "10048.24000"
+      "rate": "10165.77000"
     },
     {
       "name": "http/simple",
@@ -1226,7 +1226,7 @@
         "chunks": 1,
         "c": 50
       },
-      "rate": "10515.84000"
+      "rate": "10633.84000"
     },
     {
       "name": "http/simple",
@@ -1236,7 +1236,7 @@
         "chunks": 1,
         "c": 500
       },
-      "rate": "9528.49000"
+      "rate": "9562.47000"
     },
     {
       "name": "http/simple",
@@ -1246,7 +1246,7 @@
         "chunks": 4,
         "c": 50
       },
-      "rate": "9043.57000"
+      "rate": "9305.26000"
     },
     {
       "name": "http/simple",
@@ -1256,7 +1256,7 @@
         "chunks": 4,
         "c": 500
       },
-      "rate": "8370.36000"
+      "rate": "8552.62000"
     }
   ]
 }

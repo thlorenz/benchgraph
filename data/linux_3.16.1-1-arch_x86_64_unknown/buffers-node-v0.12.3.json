@@ -3,7 +3,7 @@
     {
       "name": "buffers/buffer-base64-encode",
       "config": {},
-      "rate": "18.08614"
+      "rate": "18.49323"
     }
   ],
   "buffers/buffer-compare": [
@@ -13,7 +13,7 @@
         "size": 16,
         "millions": 1
       },
-      "rate": "14.40290"
+      "rate": "14.51417"
     },
     {
       "name": "buffers/buffer-compare",
@@ -21,7 +21,7 @@
         "size": 512,
         "millions": 1
       },
-      "rate": "2.51413"
+      "rate": "2.49567"
     },
     {
       "name": "buffers/buffer-compare",
@@ -29,7 +29,7 @@
         "size": 1024,
         "millions": 1
       },
-      "rate": "1.35427"
+      "rate": "1.35182"
     },
     {
       "name": "buffers/buffer-compare",
@@ -37,7 +37,7 @@
         "size": 4096,
         "millions": 1
       },
-      "rate": "0.36291"
+      "rate": "0.36395"
     },
     {
       "name": "buffers/buffer-compare",
@@ -45,7 +45,7 @@
         "size": 16386,
         "millions": 1
       },
-      "rate": "0.08922"
+      "rate": "0.08889"
     }
   ],
   "buffers/buffer-creation": [
@@ -56,7 +56,7 @@
         "len": 10,
         "n": 1024
       },
-      "rate": "3228.77597"
+      "rate": "3409.58620"
     },
     {
       "name": "buffers/buffer-creation",
@@ -65,7 +65,7 @@
         "len": 1024,
         "n": 1024
       },
-      "rate": "1996.81480"
+      "rate": "1882.40605"
     },
     {
       "name": "buffers/buffer-creation",
@@ -74,7 +74,7 @@
         "len": 10,
         "n": 1024
       },
-      "rate": "1944.61941"
+      "rate": "1898.28459"
     },
     {
       "name": "buffers/buffer-creation",
@@ -83,7 +83,7 @@
         "len": 1024,
         "n": 1024
       },
-      "rate": "985.36276"
+      "rate": "923.16561"
     }
   ],
   "buffers/buffer-iterate": [
@@ -95,7 +95,7 @@
         "method": "for",
         "n": 1000
       },
-      "rate": "1017684.30008"
+      "rate": "1013698.10246"
     }
   ],
   "buffers/buffer-read": [
@@ -107,7 +107,7 @@
         "type": "UInt8",
         "millions": 1
       },
-      "rate": "181.86702"
+      "rate": "185.07695"
     },
     {
       "name": "buffers/buffer-read",
@@ -117,7 +117,7 @@
         "type": "UInt16LE",
         "millions": 1
       },
-      "rate": "160.14049"
+      "rate": "162.74331"
     },
     {
       "name": "buffers/buffer-read",
@@ -127,7 +127,7 @@
         "type": "UInt16BE",
         "millions": 1
       },
-      "rate": "169.18750"
+      "rate": "171.96378"
     },
     {
       "name": "buffers/buffer-read",
@@ -137,7 +137,7 @@
         "type": "UInt32LE",
         "millions": 1
       },
-      "rate": "149.03267"
+      "rate": "159.80606"
     },
     {
       "name": "buffers/buffer-read",
@@ -147,7 +147,7 @@
         "type": "UInt32BE",
         "millions": 1
       },
-      "rate": "166.07513"
+      "rate": "168.63805"
     },
     {
       "name": "buffers/buffer-read",
@@ -157,7 +157,7 @@
         "type": "Int8",
         "millions": 1
       },
-      "rate": "166.37534"
+      "rate": "169.48305"
     },
     {
       "name": "buffers/buffer-read",
@@ -167,7 +167,7 @@
         "type": "Int16LE",
         "millions": 1
       },
-      "rate": "149.71302"
+      "rate": "151.88991"
     },
     {
       "name": "buffers/buffer-read",
@@ -177,7 +177,7 @@
         "type": "Int16BE",
         "millions": 1
       },
-      "rate": "149.50266"
+      "rate": "151.22055"
     },
     {
       "name": "buffers/buffer-read",
@@ -187,7 +187,7 @@
         "type": "Int32LE",
         "millions": 1
       },
-      "rate": "156.41174"
+      "rate": "159.31677"
     },
     {
       "name": "buffers/buffer-read",
@@ -197,7 +197,7 @@
         "type": "Int32BE",
         "millions": 1
       },
-      "rate": "165.34474"
+      "rate": "167.67495"
     },
     {
       "name": "buffers/buffer-read",
@@ -207,7 +207,7 @@
         "type": "FloatLE",
         "millions": 1
       },
-      "rate": "26.37517"
+      "rate": "26.65319"
     },
     {
       "name": "buffers/buffer-read",
@@ -217,7 +217,7 @@
         "type": "FloatBE",
         "millions": 1
       },
-      "rate": "24.81924"
+      "rate": "25.31113"
     },
     {
       "name": "buffers/buffer-read",
@@ -227,7 +227,7 @@
         "type": "DoubleLE",
         "millions": 1
       },
-      "rate": "26.46562"
+      "rate": "26.06092"
     },
     {
       "name": "buffers/buffer-read",
@@ -237,7 +237,7 @@
         "type": "DoubleBE",
         "millions": 1
       },
-      "rate": "23.83584"
+      "rate": "23.75587"
     },
     {
       "name": "buffers/buffer-read",
@@ -247,7 +247,7 @@
         "type": "UInt8",
         "millions": 1
       },
-      "rate": "181.53314"
+      "rate": "181.16201"
     },
     {
       "name": "buffers/buffer-read",
@@ -257,7 +257,7 @@
         "type": "UInt16LE",
         "millions": 1
       },
-      "rate": "160.14646"
+      "rate": "160.27593"
     },
     {
       "name": "buffers/buffer-read",
@@ -267,7 +267,7 @@
         "type": "UInt16BE",
         "millions": 1
       },
-      "rate": "169.19907"
+      "rate": "168.83938"
     },
     {
       "name": "buffers/buffer-read",
@@ -277,7 +277,7 @@
         "type": "UInt32LE",
         "millions": 1
       },
-      "rate": "157.42109"
+      "rate": "157.40947"
     },
     {
       "name": "buffers/buffer-read",
@@ -287,7 +287,7 @@
         "type": "UInt32BE",
         "millions": 1
       },
-      "rate": "166.02140"
+      "rate": "165.30128"
     },
     {
       "name": "buffers/buffer-read",
@@ -297,7 +297,7 @@
         "type": "Int8",
         "millions": 1
       },
-      "rate": "166.58734"
+      "rate": "166.29052"
     },
     {
       "name": "buffers/buffer-read",
@@ -307,7 +307,7 @@
         "type": "Int16LE",
         "millions": 1
       },
-      "rate": "149.74882"
+      "rate": "149.36364"
     },
     {
       "name": "buffers/buffer-read",
@@ -317,7 +317,7 @@
         "type": "Int16BE",
         "millions": 1
       },
-      "rate": "149.37992"
+      "rate": "149.56706"
     },
     {
       "name": "buffers/buffer-read",
@@ -327,7 +327,7 @@
         "type": "Int32LE",
         "millions": 1
       },
-      "rate": "156.77581"
+      "rate": "156.55614"
     },
     {
       "name": "buffers/buffer-read",
@@ -337,7 +337,7 @@
         "type": "Int32BE",
         "millions": 1
       },
-      "rate": "165.30587"
+      "rate": "164.64515"
     },
     {
       "name": "buffers/buffer-read",
@@ -347,7 +347,7 @@
         "type": "FloatLE",
         "millions": 1
       },
-      "rate": "25.76337"
+      "rate": "26.51083"
     },
     {
       "name": "buffers/buffer-read",
@@ -357,7 +357,7 @@
         "type": "FloatBE",
         "millions": 1
       },
-      "rate": "24.73741"
+      "rate": "24.64402"
     },
     {
       "name": "buffers/buffer-read",
@@ -367,7 +367,7 @@
         "type": "DoubleLE",
         "millions": 1
       },
-      "rate": "27.57809"
+      "rate": "27.58843"
     },
     {
       "name": "buffers/buffer-read",
@@ -377,7 +377,7 @@
         "type": "DoubleBE",
         "millions": 1
       },
-      "rate": "24.00639"
+      "rate": "23.76918"
     },
     {
       "name": "buffers/buffer-read",
@@ -387,7 +387,7 @@
         "type": "UInt8",
         "millions": 1
       },
-      "rate": "460.57416"
+      "rate": "459.91581"
     },
     {
       "name": "buffers/buffer-read",
@@ -397,7 +397,7 @@
         "type": "UInt16LE",
         "millions": 1
       },
-      "rate": "418.93397"
+      "rate": "440.68821"
     },
     {
       "name": "buffers/buffer-read",
@@ -407,7 +407,7 @@
         "type": "UInt16BE",
         "millions": 1
       },
-      "rate": "438.88485"
+      "rate": "417.51840"
     },
     {
       "name": "buffers/buffer-read",
@@ -417,7 +417,7 @@
         "type": "UInt32LE",
         "millions": 1
       },
-      "rate": "413.83038"
+      "rate": "412.49361"
     },
     {
       "name": "buffers/buffer-read",
@@ -427,7 +427,7 @@
         "type": "UInt32BE",
         "millions": 1
       },
-      "rate": "395.40899"
+      "rate": "417.61012"
     },
     {
       "name": "buffers/buffer-read",
@@ -437,7 +437,7 @@
         "type": "Int8",
         "millions": 1
       },
-      "rate": "374.69210"
+      "rate": "375.43950"
     },
     {
       "name": "buffers/buffer-read",
@@ -447,7 +447,7 @@
         "type": "Int16LE",
         "millions": 1
       },
-      "rate": "415.81650"
+      "rate": "415.11845"
     },
     {
       "name": "buffers/buffer-read",
@@ -457,7 +457,7 @@
         "type": "Int16BE",
         "millions": 1
       },
-      "rate": "415.66820"
+      "rate": "415.77621"
     },
     {
       "name": "buffers/buffer-read",
@@ -467,7 +467,7 @@
         "type": "Int32LE",
         "millions": 1
       },
-      "rate": "410.02074"
+      "rate": "408.76139"
     },
     {
       "name": "buffers/buffer-read",
@@ -477,7 +477,7 @@
         "type": "Int32BE",
         "millions": 1
       },
-      "rate": "410.66480"
+      "rate": "412.36280"
     },
     {
       "name": "buffers/buffer-read",
@@ -487,7 +487,7 @@
         "type": "FloatLE",
         "millions": 1
       },
-      "rate": "28.47517"
+      "rate": "28.47771"
     },
     {
       "name": "buffers/buffer-read",
@@ -497,7 +497,7 @@
         "type": "FloatBE",
         "millions": 1
       },
-      "rate": "24.70661"
+      "rate": "26.32046"
     },
     {
       "name": "buffers/buffer-read",
@@ -507,7 +507,7 @@
         "type": "DoubleLE",
         "millions": 1
       },
-      "rate": "28.97650"
+      "rate": "29.13019"
     },
     {
       "name": "buffers/buffer-read",
@@ -517,7 +517,7 @@
         "type": "DoubleBE",
         "millions": 1
       },
-      "rate": "25.14945"
+      "rate": "25.13896"
     },
     {
       "name": "buffers/buffer-read",
@@ -527,7 +527,7 @@
         "type": "UInt8",
         "millions": 1
       },
-      "rate": "460.35471"
+      "rate": "461.55224"
     },
     {
       "name": "buffers/buffer-read",
@@ -537,7 +537,7 @@
         "type": "UInt16LE",
         "millions": 1
       },
-      "rate": "441.19509"
+      "rate": "442.26477"
     },
     {
       "name": "buffers/buffer-read",
@@ -547,7 +547,7 @@
         "type": "UInt16BE",
         "millions": 1
       },
-      "rate": "440.74590"
+      "rate": "442.26301"
     },
     {
       "name": "buffers/buffer-read",
@@ -557,7 +557,7 @@
         "type": "UInt32LE",
         "millions": 1
       },
-      "rate": "416.10354"
+      "rate": "416.10891"
     },
     {
       "name": "buffers/buffer-read",
@@ -567,7 +567,7 @@
         "type": "UInt32BE",
         "millions": 1
       },
-      "rate": "415.60100"
+      "rate": "417.86175"
     },
     {
       "name": "buffers/buffer-read",
@@ -577,7 +577,7 @@
         "type": "Int8",
         "millions": 1
       },
-      "rate": "375.98664"
+      "rate": "376.23815"
     },
     {
       "name": "buffers/buffer-read",
@@ -587,7 +587,7 @@
         "type": "Int16LE",
         "millions": 1
       },
-      "rate": "416.57363"
+      "rate": "415.96023"
     },
     {
       "name": "buffers/buffer-read",
@@ -597,7 +597,7 @@
         "type": "Int16BE",
         "millions": 1
       },
-      "rate": "415.69688"
+      "rate": "416.04104"
     },
     {
       "name": "buffers/buffer-read",
@@ -607,7 +607,7 @@
         "type": "Int32LE",
         "millions": 1
       },
-      "rate": "412.17550"
+      "rate": "411.98837"
     },
     {
       "name": "buffers/buffer-read",
@@ -617,7 +617,7 @@
         "type": "Int32BE",
         "millions": 1
       },
-      "rate": "412.01621"
+      "rate": "410.46337"
     },
     {
       "name": "buffers/buffer-read",
@@ -627,7 +627,7 @@
         "type": "FloatLE",
         "millions": 1
       },
-      "rate": "28.30616"
+      "rate": "28.45556"
     },
     {
       "name": "buffers/buffer-read",
@@ -637,7 +637,7 @@
         "type": "FloatBE",
         "millions": 1
       },
-      "rate": "26.26448"
+      "rate": "26.33234"
     },
     {
       "name": "buffers/buffer-read",
@@ -647,7 +647,7 @@
         "type": "DoubleLE",
         "millions": 1
       },
-      "rate": "29.12712"
+      "rate": "29.03479"
     },
     {
       "name": "buffers/buffer-read",
@@ -657,7 +657,7 @@
         "type": "DoubleBE",
         "millions": 1
       },
-      "rate": "23.86622"
+      "rate": "25.44365"
     }
   ],
   "buffers/buffer-slice": [
@@ -667,7 +667,7 @@
         "type": "fast",
         "n": 1024
       },
-      "rate": "4234.33295"
+      "rate": "4273.09645"
     },
     {
       "name": "buffers/buffer-slice",
@@ -675,7 +675,7 @@
         "type": "slow",
         "n": 1024
       },
-      "rate": "4283.73946"
+      "rate": "4316.81118"
     }
   ],
   "buffers/buffer-write": [
@@ -687,7 +687,7 @@
         "type": "UInt8",
         "millions": 1
       },
-      "rate": "85.95936"
+      "rate": "86.60764"
     },
     {
       "name": "buffers/buffer-write",
@@ -697,7 +697,7 @@
         "type": "UInt16LE",
         "millions": 1
       },
-      "rate": "83.58859"
+      "rate": "84.85343"
     },
     {
       "name": "buffers/buffer-write",
@@ -707,7 +707,7 @@
         "type": "UInt16BE",
         "millions": 1
       },
-      "rate": "80.61730"
+      "rate": "82.86071"
     },
     {
       "name": "buffers/buffer-write",
@@ -717,7 +717,7 @@
         "type": "UInt32LE",
         "millions": 1
       },
-      "rate": "71.62876"
+      "rate": "72.35642"
     },
     {
       "name": "buffers/buffer-write",
@@ -727,7 +727,7 @@
         "type": "UInt32BE",
         "millions": 1
       },
-      "rate": "70.89295"
+      "rate": "72.68374"
     },
     {
       "name": "buffers/buffer-write",
@@ -737,7 +737,7 @@
         "type": "Int8",
         "millions": 1
       },
-      "rate": "84.64388"
+      "rate": "86.13483"
     },
     {
       "name": "buffers/buffer-write",
@@ -747,7 +747,7 @@
         "type": "Int16LE",
         "millions": 1
       },
-      "rate": "83.58492"
+      "rate": "85.04579"
     },
     {
       "name": "buffers/buffer-write",
@@ -757,7 +757,7 @@
         "type": "Int16BE",
         "millions": 1
       },
-      "rate": "81.28195"
+      "rate": "82.78434"
     },
     {
       "name": "buffers/buffer-write",
@@ -767,7 +767,7 @@
         "type": "Int32LE",
         "millions": 1
       },
-      "rate": "78.57017"
+      "rate": "79.87925"
     },
     {
       "name": "buffers/buffer-write",
@@ -777,7 +777,7 @@
         "type": "Int32BE",
         "millions": 1
       },
-      "rate": "76.49898"
+      "rate": "77.85884"
     },
     {
       "name": "buffers/buffer-write",
@@ -787,7 +787,7 @@
         "type": "FloatLE",
         "millions": 1
       },
-      "rate": "23.07292"
+      "rate": "23.37079"
     },
     {
       "name": "buffers/buffer-write",
@@ -797,7 +797,7 @@
         "type": "FloatBE",
         "millions": 1
       },
-      "rate": "22.06171"
+      "rate": "21.30888"
     },
     {
       "name": "buffers/buffer-write",
@@ -807,7 +807,7 @@
         "type": "DoubleLE",
         "millions": 1
       },
-      "rate": "23.41683"
+      "rate": "23.34617"
     },
     {
       "name": "buffers/buffer-write",
@@ -817,7 +817,7 @@
         "type": "DoubleBE",
         "millions": 1
       },
-      "rate": "21.62197"
+      "rate": "21.37475"
     },
     {
       "name": "buffers/buffer-write",
@@ -827,7 +827,7 @@
         "type": "UInt8",
         "millions": 1
       },
-      "rate": "86.72691"
+      "rate": "86.74553"
     },
     {
       "name": "buffers/buffer-write",
@@ -837,7 +837,7 @@
         "type": "UInt16LE",
         "millions": 1
       },
-      "rate": "85.04534"
+      "rate": "85.11471"
     },
     {
       "name": "buffers/buffer-write",
@@ -847,7 +847,7 @@
         "type": "UInt16BE",
         "millions": 1
       },
-      "rate": "80.89958"
+      "rate": "81.11026"
     },
     {
       "name": "buffers/buffer-write",
@@ -857,7 +857,7 @@
         "type": "UInt32LE",
         "millions": 1
       },
-      "rate": "72.61081"
+      "rate": "72.44163"
     },
     {
       "name": "buffers/buffer-write",
@@ -867,7 +867,7 @@
         "type": "UInt32BE",
         "millions": 1
       },
-      "rate": "72.64087"
+      "rate": "72.24430"
     },
     {
       "name": "buffers/buffer-write",
@@ -877,7 +877,7 @@
         "type": "Int8",
         "millions": 1
       },
-      "rate": "86.17147"
+      "rate": "86.10055"
     },
     {
       "name": "buffers/buffer-write",
@@ -887,7 +887,7 @@
         "type": "Int16LE",
         "millions": 1
       },
-      "rate": "85.25868"
+      "rate": "84.58534"
     },
     {
       "name": "buffers/buffer-write",
@@ -897,7 +897,7 @@
         "type": "Int16BE",
         "millions": 1
       },
-      "rate": "82.81170"
+      "rate": "82.95626"
     },
     {
       "name": "buffers/buffer-write",
@@ -907,7 +907,7 @@
         "type": "Int32LE",
         "millions": 1
       },
-      "rate": "79.77891"
+      "rate": "79.80196"
     },
     {
       "name": "buffers/buffer-write",
@@ -917,7 +917,7 @@
         "type": "Int32BE",
         "millions": 1
       },
-      "rate": "77.74664"
+      "rate": "77.82432"
     },
     {
       "name": "buffers/buffer-write",
@@ -927,7 +927,7 @@
         "type": "FloatLE",
         "millions": 1
       },
-      "rate": "23.38596"
+      "rate": "23.42619"
     },
     {
       "name": "buffers/buffer-write",
@@ -937,7 +937,7 @@
         "type": "FloatBE",
         "millions": 1
       },
-      "rate": "21.27786"
+      "rate": "21.98725"
     },
     {
       "name": "buffers/buffer-write",
@@ -947,7 +947,7 @@
         "type": "DoubleLE",
         "millions": 1
       },
-      "rate": "23.43298"
+      "rate": "23.33123"
     },
     {
       "name": "buffers/buffer-write",
@@ -957,7 +957,7 @@
         "type": "DoubleBE",
         "millions": 1
       },
-      "rate": "21.00061"
+      "rate": "21.44722"
     },
     {
       "name": "buffers/buffer-write",
@@ -967,7 +967,7 @@
         "type": "UInt8",
         "millions": 1
       },
-      "rate": "435.93157"
+      "rate": "435.26992"
     },
     {
       "name": "buffers/buffer-write",
@@ -977,7 +977,7 @@
         "type": "UInt16LE",
         "millions": 1
       },
-      "rate": "367.66071"
+      "rate": "370.34582"
     },
     {
       "name": "buffers/buffer-write",
@@ -987,7 +987,7 @@
         "type": "UInt16BE",
         "millions": 1
       },
-      "rate": "369.72021"
+      "rate": "370.45283"
     },
     {
       "name": "buffers/buffer-write",
@@ -997,7 +997,7 @@
         "type": "UInt32LE",
         "millions": 1
       },
-      "rate": "278.15120"
+      "rate": "286.85252"
     },
     {
       "name": "buffers/buffer-write",
@@ -1007,7 +1007,7 @@
         "type": "UInt32BE",
         "millions": 1
       },
-      "rate": "284.39364"
+      "rate": "285.81448"
     },
     {
       "name": "buffers/buffer-write",
@@ -1017,7 +1017,7 @@
         "type": "Int8",
         "millions": 1
       },
-      "rate": "430.43540"
+      "rate": "433.90819"
     },
     {
       "name": "buffers/buffer-write",
@@ -1027,7 +1027,7 @@
         "type": "Int16LE",
         "millions": 1
       },
-      "rate": "364.81625"
+      "rate": "370.80242"
     },
     {
       "name": "buffers/buffer-write",
@@ -1037,7 +1037,7 @@
         "type": "Int16BE",
         "millions": 1
       },
-      "rate": "366.80879"
+      "rate": "369.19810"
     },
     {
       "name": "buffers/buffer-write",
@@ -1047,7 +1047,7 @@
         "type": "Int32LE",
         "millions": 1
       },
-      "rate": "317.33338"
+      "rate": "317.99718"
     },
     {
       "name": "buffers/buffer-write",
@@ -1057,7 +1057,7 @@
         "type": "Int32BE",
         "millions": 1
       },
-      "rate": "285.55038"
+      "rate": "287.43107"
     },
     {
       "name": "buffers/buffer-write",
@@ -1067,7 +1067,7 @@
         "type": "FloatLE",
         "millions": 1
       },
-      "rate": "28.19173"
+      "rate": "28.12766"
     },
     {
       "name": "buffers/buffer-write",
@@ -1077,7 +1077,7 @@
         "type": "FloatBE",
         "millions": 1
       },
-      "rate": "25.39760"
+      "rate": "25.41895"
     },
     {
       "name": "buffers/buffer-write",
@@ -1087,7 +1087,7 @@
         "type": "DoubleLE",
         "millions": 1
       },
-      "rate": "28.70458"
+      "rate": "28.62746"
     },
     {
       "name": "buffers/buffer-write",
@@ -1097,7 +1097,7 @@
         "type": "DoubleBE",
         "millions": 1
       },
-      "rate": "23.44030"
+      "rate": "24.77677"
     },
     {
       "name": "buffers/buffer-write",
@@ -1107,7 +1107,7 @@
         "type": "UInt8",
         "millions": 1
       },
-      "rate": "435.45548"
+      "rate": "430.73353"
     },
     {
       "name": "buffers/buffer-write",
@@ -1117,7 +1117,7 @@
         "type": "UInt16LE",
         "millions": 1
       },
-      "rate": "370.71678"
+      "rate": "370.56155"
     },
     {
       "name": "buffers/buffer-write",
@@ -1127,7 +1127,7 @@
         "type": "UInt16BE",
         "millions": 1
       },
-      "rate": "370.14075"
+      "rate": "369.43679"
     },
     {
       "name": "buffers/buffer-write",
@@ -1137,7 +1137,7 @@
         "type": "UInt32LE",
         "millions": 1
       },
-      "rate": "288.19374"
+      "rate": "288.23934"
     },
     {
       "name": "buffers/buffer-write",
@@ -1147,7 +1147,7 @@
         "type": "UInt32BE",
         "millions": 1
       },
-      "rate": "287.19449"
+      "rate": "284.94039"
     },
     {
       "name": "buffers/buffer-write",
@@ -1157,7 +1157,7 @@
         "type": "Int8",
         "millions": 1
       },
-      "rate": "433.75668"
+      "rate": "412.37641"
     },
     {
       "name": "buffers/buffer-write",
@@ -1167,7 +1167,7 @@
         "type": "Int16LE",
         "millions": 1
       },
-      "rate": "367.36735"
+      "rate": "370.85330"
     },
     {
       "name": "buffers/buffer-write",
@@ -1177,7 +1177,7 @@
         "type": "Int16BE",
         "millions": 1
       },
-      "rate": "369.06293"
+      "rate": "369.76710"
     },
     {
       "name": "buffers/buffer-write",
@@ -1187,7 +1187,7 @@
         "type": "Int32LE",
         "millions": 1
       },
-      "rate": "317.32342"
+      "rate": "297.02067"
     },
     {
       "name": "buffers/buffer-write",
@@ -1197,7 +1197,7 @@
         "type": "Int32BE",
         "millions": 1
       },
-      "rate": "287.33362"
+      "rate": "277.26860"
     },
     {
       "name": "buffers/buffer-write",
@@ -1207,7 +1207,7 @@
         "type": "FloatLE",
         "millions": 1
       },
-      "rate": "27.43889"
+      "rate": "27.69880"
     },
     {
       "name": "buffers/buffer-write",
@@ -1217,7 +1217,7 @@
         "type": "FloatBE",
         "millions": 1
       },
-      "rate": "25.00137"
+      "rate": "25.07669"
     },
     {
       "name": "buffers/buffer-write",
@@ -1227,7 +1227,7 @@
         "type": "DoubleLE",
         "millions": 1
       },
-      "rate": "28.28536"
+      "rate": "28.71635"
     },
     {
       "name": "buffers/buffer-write",
@@ -1237,7 +1237,7 @@
         "type": "DoubleBE",
         "millions": 1
       },
-      "rate": "24.39132"
+      "rate": "24.59535"
     }
   ],
   "buffers/dataview-set": [
@@ -1247,7 +1247,7 @@
         "type": "Uint8",
         "millions": 1
       },
-      "rate": "3.27705"
+      "rate": "5.51689"
     },
     {
       "name": "buffers/dataview-set",
@@ -1255,7 +1255,7 @@
         "type": "Uint16LE",
         "millions": 1
       },
-      "rate": "5.38209"
+      "rate": "5.37634"
     },
     {
       "name": "buffers/dataview-set",
@@ -1263,7 +1263,7 @@
         "type": "Uint16BE",
         "millions": 1
       },
-      "rate": "5.28274"
+      "rate": "5.34233"
     },
     {
       "name": "buffers/dataview-set",
@@ -1271,7 +1271,7 @@
         "type": "Uint32LE",
         "millions": 1
       },
-      "rate": "4.61947"
+      "rate": "4.57316"
     },
     {
       "name": "buffers/dataview-set",
@@ -1279,7 +1279,7 @@
         "type": "Uint32BE",
         "millions": 1
       },
-      "rate": "4.52883"
+      "rate": "4.44920"
     },
     {
       "name": "buffers/dataview-set",
@@ -1287,7 +1287,7 @@
         "type": "Int8",
         "millions": 1
       },
-      "rate": "5.46514"
+      "rate": "5.34545"
     },
     {
       "name": "buffers/dataview-set",
@@ -1295,7 +1295,7 @@
         "type": "Int16LE",
         "millions": 1
       },
-      "rate": "5.40797"
+      "rate": "5.39576"
     },
     {
       "name": "buffers/dataview-set",
@@ -1303,7 +1303,7 @@
         "type": "Int16BE",
         "millions": 1
       },
-      "rate": "5.24768"
+      "rate": "5.50771"
     },
     {
       "name": "buffers/dataview-set",
@@ -1311,7 +1311,7 @@
         "type": "Int32LE",
         "millions": 1
       },
-      "rate": "5.20427"
+      "rate": "5.20837"
     },
     {
       "name": "buffers/dataview-set",
@@ -1319,7 +1319,7 @@
         "type": "Int32BE",
         "millions": 1
       },
-      "rate": "5.32997"
+      "rate": "5.20363"
     },
     {
       "name": "buffers/dataview-set",
@@ -1327,7 +1327,7 @@
         "type": "Float32LE",
         "millions": 1
       },
-      "rate": "3.24303"
+      "rate": "4.55797"
     },
     {
       "name": "buffers/dataview-set",
@@ -1335,7 +1335,7 @@
         "type": "Float32BE",
         "millions": 1
       },
-      "rate": "4.83710"
+      "rate": "5.05003"
     },
     {
       "name": "buffers/dataview-set",
@@ -1343,7 +1343,7 @@
         "type": "Float64LE",
         "millions": 1
       },
-      "rate": "4.86127"
+      "rate": "3.24167"
     },
     {
       "name": "buffers/dataview-set",
@@ -1351,7 +1351,7 @@
         "type": "Float64BE",
         "millions": 1
       },
-      "rate": "4.66228"
+      "rate": "4.78692"
     }
   ]
 }

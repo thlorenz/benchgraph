@@ -7,7 +7,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "4.68341"
+      "rate": "4.72428"
     },
     {
       "name": "net/net-c2s",
@@ -16,7 +16,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "8.04998"
+      "rate": "8.23014"
     },
     {
       "name": "net/net-c2s",
@@ -25,7 +25,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "9.26818"
+      "rate": "9.24614"
     },
     {
       "name": "net/net-c2s",
@@ -34,7 +34,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "4.36434"
+      "rate": "4.33085"
     },
     {
       "name": "net/net-c2s",
@@ -43,7 +43,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "7.10055"
+      "rate": "7.21014"
     },
     {
       "name": "net/net-c2s",
@@ -52,7 +52,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "11.00969"
+      "rate": "11.07154"
     }
   ],
   "net/net-pipe": [
@@ -63,7 +63,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "6.23800"
+      "rate": "6.31275"
     },
     {
       "name": "net/net-pipe",
@@ -72,7 +72,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "8.43977"
+      "rate": "8.58183"
     },
     {
       "name": "net/net-pipe",
@@ -81,7 +81,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "8.98627"
+      "rate": "9.10409"
     },
     {
       "name": "net/net-pipe",
@@ -90,7 +90,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "5.67261"
+      "rate": "5.68931"
     },
     {
       "name": "net/net-pipe",
@@ -99,7 +99,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "7.70673"
+      "rate": "7.83279"
     },
     {
       "name": "net/net-pipe",
@@ -108,7 +108,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "9.50132"
+      "rate": "9.49325"
     }
   ],
   "net/net-s2c": [
@@ -119,7 +119,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "4.69548"
+      "rate": "4.77288"
     },
     {
       "name": "net/net-s2c",
@@ -128,7 +128,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "8.37091"
+      "rate": "8.58541"
     },
     {
       "name": "net/net-s2c",
@@ -137,7 +137,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "9.55083"
+      "rate": "9.58391"
     },
     {
       "name": "net/net-s2c",
@@ -146,7 +146,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "4.26386"
+      "rate": "4.36907"
     },
     {
       "name": "net/net-s2c",
@@ -155,7 +155,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "7.29363"
+      "rate": "7.19743"
     },
     {
       "name": "net/net-s2c",
@@ -164,7 +164,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "10.96882"
+      "rate": "11.05897"
     }
   ],
   "net/tcp-raw-c2s": [
@@ -175,7 +175,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "5.38320"
+      "rate": "5.11026"
     },
     {
       "name": "net/tcp-raw-c2s",
@@ -184,7 +184,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "10.38446"
+      "rate": "10.55165"
     },
     {
       "name": "net/tcp-raw-c2s",
@@ -193,7 +193,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "12.36563"
+      "rate": "12.13699"
     },
     {
       "name": "net/tcp-raw-c2s",
@@ -202,7 +202,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "4.52027"
+      "rate": "4.59276"
     },
     {
       "name": "net/tcp-raw-c2s",
@@ -211,7 +211,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "7.97092"
+      "rate": "7.93021"
     },
     {
       "name": "net/tcp-raw-c2s",
@@ -220,7 +220,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "12.60983"
+      "rate": "12.26067"
     }
   ],
   "net/tcp-raw-pipe": [
@@ -231,7 +231,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "7.19668"
+      "rate": "7.08647"
     },
     {
       "name": "net/tcp-raw-pipe",
@@ -240,7 +240,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "9.96979"
+      "rate": "9.09473"
     },
     {
       "name": "net/tcp-raw-pipe",
@@ -249,7 +249,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "11.05808"
+      "rate": "9.60987"
     },
     {
       "name": "net/tcp-raw-pipe",
@@ -258,7 +258,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "5.48976"
+      "rate": "5.93332"
     },
     {
       "name": "net/tcp-raw-pipe",
@@ -267,7 +267,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "7.48432"
+      "rate": "8.84202"
     },
     {
       "name": "net/tcp-raw-pipe",
@@ -276,7 +276,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "10.60329"
+      "rate": "10.85157"
     }
   ],
   "net/tcp-raw-s2c": [
@@ -287,7 +287,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "5.24260"
+      "rate": "5.37503"
     },
     {
       "name": "net/tcp-raw-s2c",
@@ -296,7 +296,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "10.49629"
+      "rate": "10.59114"
     },
     {
       "name": "net/tcp-raw-s2c",
@@ -305,7 +305,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "12.07875"
+      "rate": "12.29755"
     },
     {
       "name": "net/tcp-raw-s2c",
@@ -314,7 +314,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "4.55896"
+      "rate": "4.59690"
     },
     {
       "name": "net/tcp-raw-s2c",
@@ -323,7 +323,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "7.94593"
+      "rate": "7.89259"
     },
     {
       "name": "net/tcp-raw-s2c",
@@ -332,7 +332,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "12.85094"
+      "rate": "12.23997"
     }
   ]
 }

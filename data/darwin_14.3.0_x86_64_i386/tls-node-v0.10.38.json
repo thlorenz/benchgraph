@@ -7,7 +7,7 @@
         "type": "buf",
         "size": 2
       },
-      "rate": "0.87090"
+      "rate": "0.93457"
     },
     {
       "name": "tls/throughput",
@@ -16,7 +16,7 @@
         "type": "buf",
         "size": 1024
       },
-      "rate": "315.39709"
+      "rate": "318.02305"
     },
     {
       "name": "tls/throughput",
@@ -25,7 +25,7 @@
         "type": "buf",
         "size": 1048576
       },
-      "rate": "759.87139"
+      "rate": "761.65384"
     },
     {
       "name": "tls/throughput",
@@ -34,7 +34,7 @@
         "type": "asc",
         "size": 2
       },
-      "rate": "0.76625"
+      "rate": "0.74775"
     },
     {
       "name": "tls/throughput",
@@ -43,7 +43,7 @@
         "type": "asc",
         "size": 1024
       },
-      "rate": "267.31922"
+      "rate": "266.11118"
     },
     {
       "name": "tls/throughput",
@@ -52,7 +52,7 @@
         "type": "asc",
         "size": 1048576
       },
-      "rate": "677.01817"
+      "rate": "684.65022"
     },
     {
       "name": "tls/throughput",
@@ -61,7 +61,7 @@
         "type": "utf",
         "size": 2
       },
-      "rate": "0.77682"
+      "rate": "0.78533"
     },
     {
       "name": "tls/throughput",
@@ -70,7 +70,7 @@
         "type": "utf",
         "size": 1024
       },
-      "rate": "247.20322"
+      "rate": "252.37656"
     },
     {
       "name": "tls/throughput",
@@ -79,7 +79,7 @@
         "type": "utf",
         "size": 1048576
       },
-      "rate": "585.09422"
+      "rate": "584.52961"
     }
   ],
   "tls/tls-connect": [
@@ -89,7 +89,7 @@
         "concurrency": 1,
         "dur": 5
       },
-      "rate": "543.19417"
+      "rate": "554.77174"
     },
     {
       "name": "tls/tls-connect",
@@ -97,7 +97,7 @@
         "concurrency": 10,
         "dur": 5
       },
-      "rate": "565.23786"
+      "rate": "575.87097"
     }
   ]
 }

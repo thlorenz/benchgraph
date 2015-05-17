@@ -7,7 +7,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "2.57936"
+      "rate": "2.65800"
     },
     {
       "name": "net/net-c2s",
@@ -16,7 +16,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "4.33009"
+      "rate": "4.47053"
     },
     {
       "name": "net/net-c2s",
@@ -25,7 +25,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "8.03290"
+      "rate": "8.22446"
     },
     {
       "name": "net/net-c2s",
@@ -34,7 +34,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "2.02777"
+      "rate": "2.07492"
     },
     {
       "name": "net/net-c2s",
@@ -43,7 +43,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "3.89531"
+      "rate": "4.02079"
     },
     {
       "name": "net/net-c2s",
@@ -52,7 +52,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "9.03046"
+      "rate": "9.02944"
     }
   ],
   "net/net-pipe": [
@@ -63,7 +63,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "3.85769"
+      "rate": "3.92167"
     },
     {
       "name": "net/net-pipe",
@@ -72,7 +72,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "5.16593"
+      "rate": "5.09330"
     },
     {
       "name": "net/net-pipe",
@@ -81,7 +81,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "7.45296"
+      "rate": "7.62323"
     },
     {
       "name": "net/net-pipe",
@@ -90,7 +90,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "3.05759"
+      "rate": "3.15639"
     },
     {
       "name": "net/net-pipe",
@@ -99,7 +99,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "4.83275"
+      "rate": "5.09275"
     },
     {
       "name": "net/net-pipe",
@@ -108,7 +108,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "7.82515"
+      "rate": "8.00437"
     }
   ],
   "net/net-s2c": [
@@ -119,7 +119,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "2.64101"
+      "rate": "2.63392"
     },
     {
       "name": "net/net-s2c",
@@ -128,7 +128,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "3.87124"
+      "rate": "4.07226"
     },
     {
       "name": "net/net-s2c",
@@ -137,7 +137,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "7.82995"
+      "rate": "8.08220"
     },
     {
       "name": "net/net-s2c",
@@ -146,7 +146,7 @@
         "type": "utf",
         "dur": 5
       },
-      "rate": "2.01251"
+      "rate": "2.03166"
     },
     {
       "name": "net/net-s2c",
@@ -155,7 +155,7 @@
         "type": "asc",
         "dur": 5
       },
-      "rate": "3.89317"
+      "rate": "4.06842"
     },
     {
       "name": "net/net-s2c",
@@ -164,7 +164,7 @@
         "type": "buf",
         "dur": 5
       },
-      "rate": "8.95839"
+      "rate": "9.15373"
     }
   ]
 }

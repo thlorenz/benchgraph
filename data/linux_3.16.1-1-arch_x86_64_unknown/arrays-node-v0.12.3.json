@@ -6,7 +6,7 @@
         "type": "Array",
         "n": 25
       },
-      "rate": "54.54980"
+      "rate": "55.82170"
     },
     {
       "name": "arrays/var-int",
@@ -14,7 +14,7 @@
         "type": "Buffer",
         "n": 25
       },
-      "rate": "75.30375"
+      "rate": "75.00550"
     },
     {
       "name": "arrays/var-int",
@@ -22,7 +22,7 @@
         "type": "Int8Array",
         "n": 25
       },
-      "rate": "74.87534"
+      "rate": "74.88271"
     },
     {
       "name": "arrays/var-int",
@@ -30,7 +30,7 @@
         "type": "Uint8Array",
         "n": 25
       },
-      "rate": "74.89300"
+      "rate": "74.88088"
     },
     {
       "name": "arrays/var-int",
@@ -38,7 +38,7 @@
         "type": "Int16Array",
         "n": 25
       },
-      "rate": "73.87576"
+      "rate": "73.84938"
     },
     {
       "name": "arrays/var-int",
@@ -46,7 +46,7 @@
         "type": "Uint16Array",
         "n": 25
       },
-      "rate": "73.89543"
+      "rate": "73.81846"
     },
     {
       "name": "arrays/var-int",
@@ -54,7 +54,7 @@
         "type": "Int32Array",
         "n": 25
       },
-      "rate": "71.97289"
+      "rate": "71.91978"
     },
     {
       "name": "arrays/var-int",
@@ -62,7 +62,7 @@
         "type": "Uint32Array",
         "n": 25
       },
-      "rate": "71.99396"
+      "rate": "71.97886"
     },
     {
       "name": "arrays/var-int",
@@ -70,7 +70,7 @@
         "type": "Float32Array",
         "n": 25
       },
-      "rate": "48.92209"
+      "rate": "48.93777"
     },
     {
       "name": "arrays/var-int",
@@ -78,7 +78,7 @@
         "type": "Float64Array",
         "n": 25
       },
-      "rate": "54.51607"
+      "rate": "55.53990"
     }
   ],
   "arrays/zero-float": [
@@ -88,7 +88,7 @@
         "type": "Array",
         "n": 25
       },
-      "rate": "56.31151"
+      "rate": "56.02173"
     },
     {
       "name": "arrays/zero-float",
@@ -96,7 +96,7 @@
         "type": "Buffer",
         "n": 25
       },
-      "rate": "60.45277"
+      "rate": "60.26291"
     },
     {
       "name": "arrays/zero-float",
@@ -104,7 +104,7 @@
         "type": "Int8Array",
         "n": 25
       },
-      "rate": "60.19849"
+      "rate": "59.92318"
     },
     {
       "name": "arrays/zero-float",
@@ -112,7 +112,7 @@
         "type": "Uint8Array",
         "n": 25
       },
-      "rate": "60.16010"
+      "rate": "59.91471"
     },
     {
       "name": "arrays/zero-float",
@@ -120,7 +120,7 @@
         "type": "Int16Array",
         "n": 25
       },
-      "rate": "59.51290"
+      "rate": "59.51633"
     },
     {
       "name": "arrays/zero-float",
@@ -128,7 +128,7 @@
         "type": "Uint16Array",
         "n": 25
       },
-      "rate": "59.51991"
+      "rate": "59.51623"
     },
     {
       "name": "arrays/zero-float",
@@ -136,7 +136,7 @@
         "type": "Int32Array",
         "n": 25
       },
-      "rate": "58.21187"
+      "rate": "58.24331"
     },
     {
       "name": "arrays/zero-float",
@@ -144,7 +144,7 @@
         "type": "Uint32Array",
         "n": 25
       },
-      "rate": "56.44166"
+      "rate": "58.20667"
     },
     {
       "name": "arrays/zero-float",
@@ -152,7 +152,7 @@
         "type": "Float32Array",
         "n": 25
       },
-      "rate": "48.96294"
+      "rate": "48.95102"
     },
     {
       "name": "arrays/zero-float",
@@ -160,7 +160,7 @@
         "type": "Float64Array",
         "n": 25
       },
-      "rate": "68.60497"
+      "rate": "68.49691"
     }
   ],
   "arrays/zero-int": [
@@ -170,7 +170,7 @@
         "type": "Array",
         "n": 25
       },
-      "rate": "56.38542"
+      "rate": "56.08033"
     },
     {
       "name": "arrays/zero-int",
@@ -178,7 +178,7 @@
         "type": "Buffer",
         "n": 25
       },
-      "rate": "57.92534"
+      "rate": "60.17982"
     },
     {
       "name": "arrays/zero-int",
@@ -186,7 +186,7 @@
         "type": "Int8Array",
         "n": 25
       },
-      "rate": "60.20632"
+      "rate": "59.97092"
     },
     {
       "name": "arrays/zero-int",
@@ -194,7 +194,7 @@
         "type": "Uint8Array",
         "n": 25
       },
-      "rate": "60.21053"
+      "rate": "59.92155"
     },
     {
       "name": "arrays/zero-int",
@@ -202,7 +202,7 @@
         "type": "Int16Array",
         "n": 25
       },
-      "rate": "59.51427"
+      "rate": "59.23639"
     },
     {
       "name": "arrays/zero-int",
@@ -210,7 +210,7 @@
         "type": "Uint16Array",
         "n": 25
       },
-      "rate": "59.49568"
+      "rate": "59.18615"
     },
     {
       "name": "arrays/zero-int",
@@ -218,7 +218,7 @@
         "type": "Int32Array",
         "n": 25
       },
-      "rate": "58.21863"
+      "rate": "57.98775"
     },
     {
       "name": "arrays/zero-int",
@@ -226,7 +226,7 @@
         "type": "Uint32Array",
         "n": 25
       },
-      "rate": "58.24242"
+      "rate": "57.97901"
     },
     {
       "name": "arrays/zero-int",
@@ -234,7 +234,7 @@
         "type": "Float32Array",
         "n": 25
       },
-      "rate": "48.96928"
+      "rate": "48.79728"
     },
     {
       "name": "arrays/zero-int",
@@ -242,7 +242,7 @@
         "type": "Float64Array",
         "n": 25
       },
-      "rate": "68.52735"
+      "rate": "68.33430"
     }
   ]
 }

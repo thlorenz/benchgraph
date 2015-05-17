@@ -3,7 +3,7 @@
     {
       "name": "buffers/buffer-base64-encode",
       "config": {},
-      "rate": "12.92765"
+      "rate": "12.93450"
     }
   ],
   "buffers/buffer-creation": [
@@ -14,7 +14,7 @@
         "len": 10,
         "n": 1024
       },
-      "rate": "3205.91687"
+      "rate": "3085.67118"
     },
     {
       "name": "buffers/buffer-creation",
@@ -23,7 +23,7 @@
         "len": 1024,
         "n": 1024
       },
-      "rate": "1652.38403"
+      "rate": "1601.76685"
     },
     {
       "name": "buffers/buffer-creation",
@@ -32,7 +32,7 @@
         "len": 10,
         "n": 1024
       },
-      "rate": "808.66782"
+      "rate": "807.31292"
     },
     {
       "name": "buffers/buffer-creation",
@@ -41,7 +41,7 @@
         "len": 1024,
         "n": 1024
       },
-      "rate": "559.19017"
+      "rate": "583.97246"
     }
   ]
 }

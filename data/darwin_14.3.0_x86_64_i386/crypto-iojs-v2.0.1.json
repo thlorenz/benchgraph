@@ -7,7 +7,7 @@
         "cipher": "aes-128-gcm",
         "len": 1024
       },
-      "rate": "471.07347"
+      "rate": "474.85098"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -16,7 +16,7 @@
         "cipher": "aes-128-gcm",
         "len": 4096
       },
-      "rate": "1295.18808"
+      "rate": "1307.90033"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -25,7 +25,7 @@
         "cipher": "aes-128-gcm",
         "len": 16384
       },
-      "rate": "2436.37105"
+      "rate": "2467.20970"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -34,7 +34,7 @@
         "cipher": "aes-128-gcm",
         "len": 65536
       },
-      "rate": "3067.67693"
+      "rate": "3186.24846"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -43,7 +43,7 @@
         "cipher": "aes-128-gcm",
         "len": 262144
       },
-      "rate": "2884.54052"
+      "rate": "2964.92970"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -52,7 +52,7 @@
         "cipher": "aes-128-gcm",
         "len": 1048576
       },
-      "rate": "3123.36610"
+      "rate": "3262.12239"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -61,7 +61,7 @@
         "cipher": "aes-192-gcm",
         "len": 1024
       },
-      "rate": "456.81086"
+      "rate": "476.12738"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -70,7 +70,7 @@
         "cipher": "aes-192-gcm",
         "len": 4096
       },
-      "rate": "1241.37167"
+      "rate": "1292.22463"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -79,7 +79,7 @@
         "cipher": "aes-192-gcm",
         "len": 16384
       },
-      "rate": "2227.45462"
+      "rate": "2397.37729"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -88,7 +88,7 @@
         "cipher": "aes-192-gcm",
         "len": 65536
       },
-      "rate": "3083.36269"
+      "rate": "3100.52611"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -97,7 +97,7 @@
         "cipher": "aes-192-gcm",
         "len": 262144
       },
-      "rate": "2731.42180"
+      "rate": "2915.89426"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -106,7 +106,7 @@
         "cipher": "aes-192-gcm",
         "len": 1048576
       },
-      "rate": "3006.30005"
+      "rate": "3133.83805"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -115,7 +115,7 @@
         "cipher": "aes-256-gcm",
         "len": 1024
       },
-      "rate": "474.41868"
+      "rate": "474.27870"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -124,7 +124,7 @@
         "cipher": "aes-256-gcm",
         "len": 4096
       },
-      "rate": "1252.79936"
+      "rate": "1265.22347"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -133,7 +133,7 @@
         "cipher": "aes-256-gcm",
         "len": 16384
       },
-      "rate": "2311.24505"
+      "rate": "2304.88333"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -142,7 +142,7 @@
         "cipher": "aes-256-gcm",
         "len": 65536
       },
-      "rate": "2896.57746"
+      "rate": "3008.75263"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -151,7 +151,7 @@
         "cipher": "aes-256-gcm",
         "len": 262144
       },
-      "rate": "2743.11128"
+      "rate": "2818.85437"
     },
     {
       "name": "crypto/aes-gcm-throughput",
@@ -160,7 +160,7 @@
         "cipher": "aes-256-gcm",
         "len": 1048576
       },
-      "rate": "2911.94130"
+      "rate": "3042.51559"
     }
   ],
   "crypto/cipher-stream": [
@@ -173,7 +173,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00053"
+      "rate": "0.00058"
     },
     {
       "name": "crypto/cipher-stream",
@@ -195,7 +195,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "0.14413"
+      "rate": "0.14627"
     },
     {
       "name": "crypto/cipher-stream",
@@ -206,7 +206,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.13950"
+      "rate": "0.15452"
     },
     {
       "name": "crypto/cipher-stream",
@@ -217,7 +217,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "0.32971"
+      "rate": "0.34541"
     },
     {
       "name": "crypto/cipher-stream",
@@ -228,7 +228,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "2.17498"
+      "rate": "2.29009"
     },
     {
       "name": "crypto/cipher-stream",
@@ -239,7 +239,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "0.31127"
+      "rate": "0.32306"
     },
     {
       "name": "crypto/cipher-stream",
@@ -250,7 +250,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "2.41033"
+      "rate": "2.50790"
     },
     {
       "name": "crypto/cipher-stream",
@@ -261,7 +261,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00060"
+      "rate": "0.00058"
     },
     {
       "name": "crypto/cipher-stream",
@@ -272,7 +272,7 @@
         "len": 2,
         "api": "stream"
       },
-      "rate": "0.00034"
+      "rate": "0.00036"
     },
     {
       "name": "crypto/cipher-stream",
@@ -283,7 +283,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "0.12243"
+      "rate": "0.13108"
     },
     {
       "name": "crypto/cipher-stream",
@@ -294,7 +294,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.14187"
+      "rate": "0.14559"
     },
     {
       "name": "crypto/cipher-stream",
@@ -305,7 +305,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "0.27082"
+      "rate": "0.28287"
     },
     {
       "name": "crypto/cipher-stream",
@@ -316,7 +316,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "1.91956"
+      "rate": "1.95995"
     },
     {
       "name": "crypto/cipher-stream",
@@ -327,7 +327,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "0.26167"
+      "rate": "0.26790"
     },
     {
       "name": "crypto/cipher-stream",
@@ -338,7 +338,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "2.03088"
+      "rate": "2.08717"
     },
     {
       "name": "crypto/cipher-stream",
@@ -371,7 +371,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "0.15684"
+      "rate": "0.15997"
     },
     {
       "name": "crypto/cipher-stream",
@@ -382,7 +382,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.14572"
+      "rate": "0.14568"
     },
     {
       "name": "crypto/cipher-stream",
@@ -393,7 +393,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "0.33186"
+      "rate": "0.33999"
     },
     {
       "name": "crypto/cipher-stream",
@@ -404,7 +404,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "2.30175"
+      "rate": "2.32006"
     },
     {
       "name": "crypto/cipher-stream",
@@ -415,7 +415,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "0.31836"
+      "rate": "0.32986"
     },
     {
       "name": "crypto/cipher-stream",
@@ -426,7 +426,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "2.49776"
+      "rate": "2.54047"
     },
     {
       "name": "crypto/cipher-stream",
@@ -437,7 +437,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00053"
+      "rate": "0.00057"
     },
     {
       "name": "crypto/cipher-stream",
@@ -448,7 +448,7 @@
         "len": 2,
         "api": "stream"
       },
-      "rate": "0.00034"
+      "rate": "0.00036"
     },
     {
       "name": "crypto/cipher-stream",
@@ -459,7 +459,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "0.13534"
+      "rate": "0.13985"
     },
     {
       "name": "crypto/cipher-stream",
@@ -470,7 +470,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.14237"
+      "rate": "0.14486"
     },
     {
       "name": "crypto/cipher-stream",
@@ -481,7 +481,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "0.29710"
+      "rate": "0.30819"
     },
     {
       "name": "crypto/cipher-stream",
@@ -492,7 +492,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "1.95003"
+      "rate": "2.08754"
     },
     {
       "name": "crypto/cipher-stream",
@@ -503,7 +503,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "0.27992"
+      "rate": "0.28963"
     },
     {
       "name": "crypto/cipher-stream",
@@ -514,7 +514,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "2.17873"
+      "rate": "2.26652"
     },
     {
       "name": "crypto/cipher-stream",
@@ -525,7 +525,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00059"
+      "rate": "0.00061"
     },
     {
       "name": "crypto/cipher-stream",
@@ -536,7 +536,7 @@
         "len": 2,
         "api": "stream"
       },
-      "rate": "0.00030"
+      "rate": "0.00036"
     },
     {
       "name": "crypto/cipher-stream",
@@ -547,7 +547,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "0.12345"
+      "rate": "0.12591"
     },
     {
       "name": "crypto/cipher-stream",
@@ -558,7 +558,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.14033"
+      "rate": "0.14292"
     },
     {
       "name": "crypto/cipher-stream",
@@ -569,7 +569,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "0.23485"
+      "rate": "0.25809"
     },
     {
       "name": "crypto/cipher-stream",
@@ -580,7 +580,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "1.71921"
+      "rate": "1.80307"
     },
     {
       "name": "crypto/cipher-stream",
@@ -591,7 +591,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "0.23743"
+      "rate": "0.24531"
     },
     {
       "name": "crypto/cipher-stream",
@@ -602,7 +602,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "1.85009"
+      "rate": "1.91232"
     },
     {
       "name": "crypto/cipher-stream",
@@ -624,7 +624,7 @@
         "len": 2,
         "api": "stream"
       },
-      "rate": "0.00035"
+      "rate": "0.00038"
     },
     {
       "name": "crypto/cipher-stream",
@@ -635,7 +635,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "0.15264"
+      "rate": "0.15057"
     },
     {
       "name": "crypto/cipher-stream",
@@ -646,7 +646,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.14669"
+      "rate": "0.14749"
     },
     {
       "name": "crypto/cipher-stream",
@@ -657,7 +657,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "0.30532"
+      "rate": "0.31138"
     },
     {
       "name": "crypto/cipher-stream",
@@ -668,7 +668,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "2.10785"
+      "rate": "2.12888"
     },
     {
       "name": "crypto/cipher-stream",
@@ -679,7 +679,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "0.28423"
+      "rate": "0.29446"
     },
     {
       "name": "crypto/cipher-stream",
@@ -690,7 +690,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "2.23706"
+      "rate": "2.30773"
     }
   ],
   "crypto/hash-stream-creation": [
@@ -704,7 +704,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00358"
+      "rate": "0.00365"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -716,7 +716,7 @@
         "len": 2,
         "api": "stream"
       },
-      "rate": "0.00018"
+      "rate": "0.00019"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -728,7 +728,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "1.09530"
+      "rate": "1.10506"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -740,7 +740,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.09123"
+      "rate": "0.09407"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -752,7 +752,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "2.57684"
+      "rate": "2.55377"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -764,7 +764,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "2.01819"
+      "rate": "2.08809"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -776,7 +776,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "2.57557"
+      "rate": "2.65017"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -788,7 +788,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "2.41458"
+      "rate": "2.57085"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -812,7 +812,7 @@
         "len": 2,
         "api": "stream"
       },
-      "rate": "0.00018"
+      "rate": "0.00017"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -824,7 +824,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "1.15984"
+      "rate": "1.18547"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -836,7 +836,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.08309"
+      "rate": "0.09268"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -848,7 +848,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "2.60730"
+      "rate": "2.62791"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -860,7 +860,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "2.05711"
+      "rate": "2.09291"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -872,7 +872,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "2.41166"
+      "rate": "2.64940"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -884,7 +884,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "2.40100"
+      "rate": "2.58150"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -908,294 +908,6 @@
         "len": 2,
         "api": "stream"
       },
-      "rate": "0.00019"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "asc",
-        "out": "buffer",
-        "len": 1024,
-        "api": "legacy"
-      },
-      "rate": "0.96843"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "asc",
-        "out": "buffer",
-        "len": 1024,
-        "api": "stream"
-      },
-      "rate": "0.09939"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "asc",
-        "out": "buffer",
-        "len": 102400,
-        "api": "legacy"
-      },
-      "rate": "2.50296"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "asc",
-        "out": "buffer",
-        "len": 102400,
-        "api": "stream"
-      },
-      "rate": "2.10861"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "asc",
-        "out": "buffer",
-        "len": 1048576,
-        "api": "legacy"
-      },
-      "rate": "2.56117"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "asc",
-        "out": "buffer",
-        "len": 1048576,
-        "api": "stream"
-      },
-      "rate": "2.51519"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "hex",
-        "len": 2,
-        "api": "legacy"
-      },
-      "rate": "0.00356"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "hex",
-        "len": 2,
-        "api": "stream"
-      },
-      "rate": "0.00017"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "hex",
-        "len": 1024,
-        "api": "legacy"
-      },
-      "rate": "0.94362"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "hex",
-        "len": 1024,
-        "api": "stream"
-      },
-      "rate": "0.09263"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "hex",
-        "len": 102400,
-        "api": "legacy"
-      },
-      "rate": "2.10177"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "hex",
-        "len": 102400,
-        "api": "stream"
-      },
-      "rate": "1.65181"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "hex",
-        "len": 1048576,
-        "api": "legacy"
-      },
-      "rate": "1.85982"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "hex",
-        "len": 1048576,
-        "api": "stream"
-      },
-      "rate": "2.06103"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "binary",
-        "len": 2,
-        "api": "legacy"
-      },
-      "rate": "0.00432"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "binary",
-        "len": 2,
-        "api": "stream"
-      },
-      "rate": "0.00019"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "binary",
-        "len": 1024,
-        "api": "legacy"
-      },
-      "rate": "1.07569"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "binary",
-        "len": 1024,
-        "api": "stream"
-      },
-      "rate": "0.09010"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "binary",
-        "len": 102400,
-        "api": "legacy"
-      },
-      "rate": "2.15129"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "binary",
-        "len": 102400,
-        "api": "stream"
-      },
-      "rate": "1.70335"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "binary",
-        "len": 1048576,
-        "api": "legacy"
-      },
-      "rate": "2.13687"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "binary",
-        "len": 1048576,
-        "api": "stream"
-      },
-      "rate": "2.08126"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "buffer",
-        "len": 2,
-        "api": "legacy"
-      },
-      "rate": "0.00317"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "utf",
-        "out": "buffer",
-        "len": 2,
-        "api": "stream"
-      },
       "rate": "0.00021"
     },
     {
@@ -1203,60 +915,72 @@
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "utf",
+        "type": "asc",
         "out": "buffer",
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "0.62826"
+      "rate": "0.98253"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "utf",
+        "type": "asc",
         "out": "buffer",
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.10082"
+      "rate": "0.10459"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "utf",
+        "type": "asc",
         "out": "buffer",
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "2.10223"
+      "rate": "2.61218"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "utf",
+        "type": "asc",
         "out": "buffer",
         "len": 102400,
         "api": "stream"
       },
-      "rate": "1.77751"
+      "rate": "2.13710"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "utf",
+        "type": "asc",
         "out": "buffer",
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "2.12789"
+      "rate": "2.64335"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "asc",
+        "out": "buffer",
+        "len": 1048576,
+        "api": "stream"
+      },
+      "rate": "2.58678"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1264,126 +988,114 @@
         "writes": 500,
         "algo": "sha256",
         "type": "utf",
-        "out": "buffer",
-        "len": 1048576,
-        "api": "stream"
-      },
-      "rate": "2.08140"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "buf",
         "out": "hex",
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00343"
+      "rate": "0.00370"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "hex",
         "len": 2,
         "api": "stream"
       },
-      "rate": "0.00017"
+      "rate": "0.00019"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "hex",
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "1.13645"
+      "rate": "1.00823"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "hex",
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.09183"
+      "rate": "0.09147"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "hex",
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "2.46878"
+      "rate": "2.17350"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "hex",
         "len": 102400,
         "api": "stream"
       },
-      "rate": "2.03011"
+      "rate": "1.78678"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "hex",
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "2.45792"
+      "rate": "2.20261"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "hex",
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "2.51161"
+      "rate": "2.15513"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "binary",
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00436"
+      "rate": "0.00440"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "binary",
         "len": 2,
         "api": "stream"
@@ -1395,84 +1107,168 @@
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "binary",
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "1.18731"
+      "rate": "1.09112"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "binary",
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.09253"
+      "rate": "0.09062"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "binary",
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "2.51954"
+      "rate": "2.17890"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "binary",
         "len": 102400,
         "api": "stream"
       },
-      "rate": "2.07595"
+      "rate": "1.78331"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "binary",
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "2.60954"
+      "rate": "2.19827"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "binary",
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "2.57722"
+      "rate": "2.15746"
     },
     {
       "name": "crypto/hash-stream-creation",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
+        "type": "utf",
         "out": "buffer",
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00316"
+      "rate": "0.00305"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "utf",
+        "out": "buffer",
+        "len": 2,
+        "api": "stream"
+      },
+      "rate": "0.00022"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "utf",
+        "out": "buffer",
+        "len": 1024,
+        "api": "legacy"
+      },
+      "rate": "0.91799"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "utf",
+        "out": "buffer",
+        "len": 1024,
+        "api": "stream"
+      },
+      "rate": "0.10039"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "utf",
+        "out": "buffer",
+        "len": 102400,
+        "api": "legacy"
+      },
+      "rate": "2.16483"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "utf",
+        "out": "buffer",
+        "len": 102400,
+        "api": "stream"
+      },
+      "rate": "1.80910"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "utf",
+        "out": "buffer",
+        "len": 1048576,
+        "api": "legacy"
+      },
+      "rate": "2.20179"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "utf",
+        "out": "buffer",
+        "len": 1048576,
+        "api": "stream"
+      },
+      "rate": "2.15631"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1480,7 +1276,115 @@
         "writes": 500,
         "algo": "sha256",
         "type": "buf",
-        "out": "buffer",
+        "out": "hex",
+        "len": 2,
+        "api": "legacy"
+      },
+      "rate": "0.00373"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "hex",
+        "len": 2,
+        "api": "stream"
+      },
+      "rate": "0.00019"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "hex",
+        "len": 1024,
+        "api": "legacy"
+      },
+      "rate": "1.13499"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "hex",
+        "len": 1024,
+        "api": "stream"
+      },
+      "rate": "0.09418"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "hex",
+        "len": 102400,
+        "api": "legacy"
+      },
+      "rate": "2.66403"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "hex",
+        "len": 102400,
+        "api": "stream"
+      },
+      "rate": "2.10557"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "hex",
+        "len": 1048576,
+        "api": "legacy"
+      },
+      "rate": "2.69682"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "hex",
+        "len": 1048576,
+        "api": "stream"
+      },
+      "rate": "2.63140"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "binary",
+        "len": 2,
+        "api": "legacy"
+      },
+      "rate": "0.00426"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "binary",
         "len": 2,
         "api": "stream"
       },
@@ -1492,11 +1396,107 @@
         "writes": 500,
         "algo": "sha256",
         "type": "buf",
+        "out": "binary",
+        "len": 1024,
+        "api": "legacy"
+      },
+      "rate": "1.23349"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "binary",
+        "len": 1024,
+        "api": "stream"
+      },
+      "rate": "0.09531"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "binary",
+        "len": 102400,
+        "api": "legacy"
+      },
+      "rate": "2.66038"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "binary",
+        "len": 102400,
+        "api": "stream"
+      },
+      "rate": "2.10167"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "binary",
+        "len": 1048576,
+        "api": "legacy"
+      },
+      "rate": "2.70478"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "binary",
+        "len": 1048576,
+        "api": "stream"
+      },
+      "rate": "2.61785"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "buffer",
+        "len": 2,
+        "api": "legacy"
+      },
+      "rate": "0.00319"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "out": "buffer",
+        "len": 2,
+        "api": "stream"
+      },
+      "rate": "0.00021"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
         "out": "buffer",
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "0.99745"
+      "rate": "1.02105"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1508,7 +1508,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.10325"
+      "rate": "0.10708"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1520,7 +1520,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "2.52229"
+      "rate": "2.65949"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1532,7 +1532,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "2.07299"
+      "rate": "2.16008"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1544,7 +1544,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "2.62683"
+      "rate": "2.68658"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1556,7 +1556,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "2.53431"
+      "rate": "2.61628"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1568,7 +1568,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00364"
+      "rate": "0.00390"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1580,7 +1580,7 @@
         "len": 2,
         "api": "stream"
       },
-      "rate": "0.00018"
+      "rate": "0.00019"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1592,7 +1592,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "1.47256"
+      "rate": "1.42492"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1604,7 +1604,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.09487"
+      "rate": "0.09149"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1616,7 +1616,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "4.80508"
+      "rate": "5.08945"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1628,7 +1628,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "3.27473"
+      "rate": "3.40449"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1640,7 +1640,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "5.13750"
+      "rate": "5.21391"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1652,7 +1652,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "4.81394"
+      "rate": "4.95520"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1664,7 +1664,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00445"
+      "rate": "0.00450"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1688,7 +1688,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "1.61089"
+      "rate": "1.57835"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1700,7 +1700,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.08661"
+      "rate": "0.09320"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1712,7 +1712,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "5.09120"
+      "rate": "5.15038"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1724,7 +1724,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "3.32144"
+      "rate": "3.39645"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1736,7 +1736,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "5.12421"
+      "rate": "5.21699"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1748,7 +1748,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "4.78291"
+      "rate": "4.94926"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1760,7 +1760,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00312"
+      "rate": "0.00319"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1772,7 +1772,7 @@
         "len": 2,
         "api": "stream"
       },
-      "rate": "0.00020"
+      "rate": "0.00021"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1784,7 +1784,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "1.25494"
+      "rate": "1.25046"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1796,7 +1796,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.09662"
+      "rate": "0.10505"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1808,7 +1808,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "5.00971"
+      "rate": "5.08683"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1820,7 +1820,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "3.52334"
+      "rate": "3.54786"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1832,7 +1832,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "4.95579"
+      "rate": "5.20902"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1844,7 +1844,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "4.82297"
+      "rate": "4.98668"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1856,7 +1856,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00394"
+      "rate": "0.00406"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1865,6 +1865,102 @@
         "algo": "md5",
         "type": "utf",
         "out": "hex",
+        "len": 2,
+        "api": "stream"
+      },
+      "rate": "0.00019"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "md5",
+        "type": "utf",
+        "out": "hex",
+        "len": 1024,
+        "api": "legacy"
+      },
+      "rate": "1.31278"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "md5",
+        "type": "utf",
+        "out": "hex",
+        "len": 1024,
+        "api": "stream"
+      },
+      "rate": "0.09515"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "md5",
+        "type": "utf",
+        "out": "hex",
+        "len": 102400,
+        "api": "legacy"
+      },
+      "rate": "3.50923"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "md5",
+        "type": "utf",
+        "out": "hex",
+        "len": 102400,
+        "api": "stream"
+      },
+      "rate": "2.67256"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "md5",
+        "type": "utf",
+        "out": "hex",
+        "len": 1048576,
+        "api": "legacy"
+      },
+      "rate": "3.71640"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "md5",
+        "type": "utf",
+        "out": "hex",
+        "len": 1048576,
+        "api": "stream"
+      },
+      "rate": "3.59066"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "md5",
+        "type": "utf",
+        "out": "binary",
+        "len": 2,
+        "api": "legacy"
+      },
+      "rate": "0.00457"
+    },
+    {
+      "name": "crypto/hash-stream-creation",
+      "config": {
+        "writes": 500,
+        "algo": "md5",
+        "type": "utf",
+        "out": "binary",
         "len": 2,
         "api": "stream"
       },
@@ -1876,107 +1972,11 @@
         "writes": 500,
         "algo": "md5",
         "type": "utf",
-        "out": "hex",
-        "len": 1024,
-        "api": "legacy"
-      },
-      "rate": "1.27868"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "md5",
-        "type": "utf",
-        "out": "hex",
-        "len": 1024,
-        "api": "stream"
-      },
-      "rate": "0.09217"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "md5",
-        "type": "utf",
-        "out": "hex",
-        "len": 102400,
-        "api": "legacy"
-      },
-      "rate": "3.38375"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "md5",
-        "type": "utf",
-        "out": "hex",
-        "len": 102400,
-        "api": "stream"
-      },
-      "rate": "2.63291"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "md5",
-        "type": "utf",
-        "out": "hex",
-        "len": 1048576,
-        "api": "legacy"
-      },
-      "rate": "3.60868"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "md5",
-        "type": "utf",
-        "out": "hex",
-        "len": 1048576,
-        "api": "stream"
-      },
-      "rate": "3.53511"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "md5",
-        "type": "utf",
-        "out": "binary",
-        "len": 2,
-        "api": "legacy"
-      },
-      "rate": "0.00471"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "md5",
-        "type": "utf",
-        "out": "binary",
-        "len": 2,
-        "api": "stream"
-      },
-      "rate": "0.00018"
-    },
-    {
-      "name": "crypto/hash-stream-creation",
-      "config": {
-        "writes": 500,
-        "algo": "md5",
-        "type": "utf",
         "out": "binary",
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "1.41675"
+      "rate": "1.44448"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -1988,7 +1988,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.08663"
+      "rate": "0.09565"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2000,7 +2000,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "3.60588"
+      "rate": "3.54363"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2012,7 +2012,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "2.58560"
+      "rate": "2.66640"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2024,7 +2024,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "3.59240"
+      "rate": "3.72415"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2036,7 +2036,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "3.52454"
+      "rate": "3.58376"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2048,7 +2048,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00337"
+      "rate": "0.00335"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2072,7 +2072,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "1.10756"
+      "rate": "1.16128"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2084,7 +2084,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.09419"
+      "rate": "0.10288"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2096,7 +2096,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "3.46100"
+      "rate": "3.62741"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2108,7 +2108,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "2.61406"
+      "rate": "2.74810"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2120,7 +2120,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "3.61946"
+      "rate": "3.72189"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2132,7 +2132,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "3.50762"
+      "rate": "3.58877"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2144,7 +2144,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00394"
+      "rate": "0.00375"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2156,7 +2156,7 @@
         "len": 2,
         "api": "stream"
       },
-      "rate": "0.00018"
+      "rate": "0.00019"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2168,7 +2168,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "1.40183"
+      "rate": "1.51981"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2180,7 +2180,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.09487"
+      "rate": "0.09863"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2192,7 +2192,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "4.94016"
+      "rate": "5.28400"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2204,7 +2204,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "3.44719"
+      "rate": "3.47272"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2216,7 +2216,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "5.16091"
+      "rate": "5.42133"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2228,7 +2228,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "4.95561"
+      "rate": "5.14927"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2240,7 +2240,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00465"
+      "rate": "0.00472"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2264,7 +2264,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "1.43876"
+      "rate": "1.68473"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2276,7 +2276,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.09254"
+      "rate": "0.09808"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2288,7 +2288,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "5.24817"
+      "rate": "5.29984"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2300,7 +2300,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "3.35591"
+      "rate": "3.46987"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2312,7 +2312,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "5.26734"
+      "rate": "5.38633"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2324,7 +2324,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "5.03426"
+      "rate": "5.13300"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2336,7 +2336,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.00328"
+      "rate": "0.00340"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2360,7 +2360,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "1.32510"
+      "rate": "1.32365"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2372,7 +2372,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.10755"
+      "rate": "0.10551"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2384,7 +2384,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "5.18558"
+      "rate": "5.25401"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2396,7 +2396,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "3.45867"
+      "rate": "3.50930"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2408,7 +2408,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "5.24433"
+      "rate": "5.36595"
     },
     {
       "name": "crypto/hash-stream-creation",
@@ -2420,7 +2420,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "4.88809"
+      "rate": "5.13190"
     }
   ],
   "crypto/hash-stream-throughput": [
@@ -2433,7 +2433,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.01060"
+      "rate": "0.01051"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2444,7 +2444,7 @@
         "len": 2,
         "api": "stream"
       },
-      "rate": "0.00087"
+      "rate": "0.00074"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2455,7 +2455,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "2.85171"
+      "rate": "2.86679"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2466,7 +2466,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.44224"
+      "rate": "0.44255"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2477,7 +2477,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "5.73951"
+      "rate": "5.76565"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2488,7 +2488,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "4.84381"
+      "rate": "5.09268"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2499,7 +2499,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "5.57148"
+      "rate": "5.76158"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2510,7 +2510,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "5.54697"
+      "rate": "5.70082"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2521,7 +2521,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.01067"
+      "rate": "0.01126"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2529,94 +2529,6 @@
         "writes": 500,
         "algo": "sha1",
         "type": "utf",
-        "len": 2,
-        "api": "stream"
-      },
-      "rate": "0.00095"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha1",
-        "type": "utf",
-        "len": 1024,
-        "api": "legacy"
-      },
-      "rate": "2.15312"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha1",
-        "type": "utf",
-        "len": 1024,
-        "api": "stream"
-      },
-      "rate": "0.42310"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha1",
-        "type": "utf",
-        "len": 102400,
-        "api": "legacy"
-      },
-      "rate": "3.90481"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha1",
-        "type": "utf",
-        "len": 102400,
-        "api": "stream"
-      },
-      "rate": "3.65226"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha1",
-        "type": "utf",
-        "len": 1048576,
-        "api": "legacy"
-      },
-      "rate": "3.87208"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha1",
-        "type": "utf",
-        "len": 1048576,
-        "api": "stream"
-      },
-      "rate": "3.87017"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha1",
-        "type": "buf",
-        "len": 2,
-        "api": "legacy"
-      },
-      "rate": "0.01395"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha1",
-        "type": "buf",
         "len": 2,
         "api": "stream"
       },
@@ -2627,11 +2539,99 @@
       "config": {
         "writes": 500,
         "algo": "sha1",
+        "type": "utf",
+        "len": 1024,
+        "api": "legacy"
+      },
+      "rate": "2.31344"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha1",
+        "type": "utf",
+        "len": 1024,
+        "api": "stream"
+      },
+      "rate": "0.42637"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha1",
+        "type": "utf",
+        "len": 102400,
+        "api": "legacy"
+      },
+      "rate": "3.93976"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha1",
+        "type": "utf",
+        "len": 102400,
+        "api": "stream"
+      },
+      "rate": "3.67429"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha1",
+        "type": "utf",
+        "len": 1048576,
+        "api": "legacy"
+      },
+      "rate": "3.98924"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha1",
+        "type": "utf",
+        "len": 1048576,
+        "api": "stream"
+      },
+      "rate": "3.96574"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha1",
+        "type": "buf",
+        "len": 2,
+        "api": "legacy"
+      },
+      "rate": "0.01413"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha1",
+        "type": "buf",
+        "len": 2,
+        "api": "stream"
+      },
+      "rate": "0.00097"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha1",
         "type": "buf",
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "2.93442"
+      "rate": "2.98019"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2642,7 +2642,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.40136"
+      "rate": "0.45619"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2653,7 +2653,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "5.94691"
+      "rate": "5.97763"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2664,7 +2664,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "5.30050"
+      "rate": "5.35268"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2675,7 +2675,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "5.77152"
+      "rate": "6.02638"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2686,7 +2686,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "5.68817"
+      "rate": "5.92765"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2697,7 +2697,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.01043"
+      "rate": "0.01050"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2719,7 +2719,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "1.78468"
+      "rate": "1.81464"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2730,7 +2730,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.40609"
+      "rate": "0.40626"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2741,7 +2741,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "2.62648"
+      "rate": "2.66034"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2752,7 +2752,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "2.42946"
+      "rate": "2.51097"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2763,7 +2763,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "2.55008"
+      "rate": "2.65687"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2774,7 +2774,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "2.57715"
+      "rate": "2.63854"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2785,7 +2785,7 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.01089"
+      "rate": "0.01120"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2796,7 +2796,7 @@
         "len": 2,
         "api": "stream"
       },
-      "rate": "0.00094"
+      "rate": "0.00089"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2807,7 +2807,7 @@
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "1.49652"
+      "rate": "1.56910"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2818,7 +2818,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.38589"
+      "rate": "0.38974"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2829,7 +2829,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "2.16888"
+      "rate": "2.19468"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2840,7 +2840,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "1.98273"
+      "rate": "2.10378"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2851,7 +2851,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "2.15001"
+      "rate": "2.20376"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2862,7 +2862,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "2.14429"
+      "rate": "2.17946"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -2873,277 +2873,13 @@
         "len": 2,
         "api": "legacy"
       },
-      "rate": "0.01209"
+      "rate": "0.01380"
     },
     {
       "name": "crypto/hash-stream-throughput",
       "config": {
         "writes": 500,
         "algo": "sha256",
-        "type": "buf",
-        "len": 2,
-        "api": "stream"
-      },
-      "rate": "0.00093"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "buf",
-        "len": 1024,
-        "api": "legacy"
-      },
-      "rate": "1.83030"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "buf",
-        "len": 1024,
-        "api": "stream"
-      },
-      "rate": "0.41038"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "buf",
-        "len": 102400,
-        "api": "legacy"
-      },
-      "rate": "2.66432"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "buf",
-        "len": 102400,
-        "api": "stream"
-      },
-      "rate": "2.44186"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "buf",
-        "len": 1048576,
-        "api": "legacy"
-      },
-      "rate": "2.60926"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha256",
-        "type": "buf",
-        "len": 1048576,
-        "api": "stream"
-      },
-      "rate": "2.51957"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "asc",
-        "len": 2,
-        "api": "legacy"
-      },
-      "rate": "0.00977"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "asc",
-        "len": 2,
-        "api": "stream"
-      },
-      "rate": "0.00088"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "asc",
-        "len": 1024,
-        "api": "legacy"
-      },
-      "rate": "2.21797"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "asc",
-        "len": 1024,
-        "api": "stream"
-      },
-      "rate": "0.42347"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "asc",
-        "len": 102400,
-        "api": "legacy"
-      },
-      "rate": "3.55489"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "asc",
-        "len": 102400,
-        "api": "stream"
-      },
-      "rate": "3.38931"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "asc",
-        "len": 1048576,
-        "api": "legacy"
-      },
-      "rate": "3.54014"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "asc",
-        "len": 1048576,
-        "api": "stream"
-      },
-      "rate": "3.46101"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "utf",
-        "len": 2,
-        "api": "legacy"
-      },
-      "rate": "0.01106"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "utf",
-        "len": 2,
-        "api": "stream"
-      },
-      "rate": "0.00086"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "utf",
-        "len": 1024,
-        "api": "legacy"
-      },
-      "rate": "1.76590"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "utf",
-        "len": 1024,
-        "api": "stream"
-      },
-      "rate": "0.40281"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "utf",
-        "len": 102400,
-        "api": "legacy"
-      },
-      "rate": "2.74031"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "utf",
-        "len": 102400,
-        "api": "stream"
-      },
-      "rate": "2.68605"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "utf",
-        "len": 1048576,
-        "api": "legacy"
-      },
-      "rate": "2.69820"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "utf",
-        "len": 1048576,
-        "api": "stream"
-      },
-      "rate": "2.49048"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
-        "type": "buf",
-        "len": 2,
-        "api": "legacy"
-      },
-      "rate": "0.01338"
-    },
-    {
-      "name": "crypto/hash-stream-throughput",
-      "config": {
-        "writes": 500,
-        "algo": "sha512",
         "type": "buf",
         "len": 2,
         "api": "stream"
@@ -3154,12 +2890,276 @@
       "name": "crypto/hash-stream-throughput",
       "config": {
         "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "len": 1024,
+        "api": "legacy"
+      },
+      "rate": "1.88292"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "len": 1024,
+        "api": "stream"
+      },
+      "rate": "0.41042"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "len": 102400,
+        "api": "legacy"
+      },
+      "rate": "2.69425"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "len": 102400,
+        "api": "stream"
+      },
+      "rate": "2.56464"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "len": 1048576,
+        "api": "legacy"
+      },
+      "rate": "2.69864"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha256",
+        "type": "buf",
+        "len": 1048576,
+        "api": "stream"
+      },
+      "rate": "2.69308"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "asc",
+        "len": 2,
+        "api": "legacy"
+      },
+      "rate": "0.01050"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "asc",
+        "len": 2,
+        "api": "stream"
+      },
+      "rate": "0.00089"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "asc",
+        "len": 1024,
+        "api": "legacy"
+      },
+      "rate": "2.21584"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "asc",
+        "len": 1024,
+        "api": "stream"
+      },
+      "rate": "0.42427"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "asc",
+        "len": 102400,
+        "api": "legacy"
+      },
+      "rate": "3.69161"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "asc",
+        "len": 102400,
+        "api": "stream"
+      },
+      "rate": "3.45555"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "asc",
+        "len": 1048576,
+        "api": "legacy"
+      },
+      "rate": "3.71710"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "asc",
+        "len": 1048576,
+        "api": "stream"
+      },
+      "rate": "3.71153"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "utf",
+        "len": 2,
+        "api": "legacy"
+      },
+      "rate": "0.01104"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "utf",
+        "len": 2,
+        "api": "stream"
+      },
+      "rate": "0.00094"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "utf",
+        "len": 1024,
+        "api": "legacy"
+      },
+      "rate": "1.88506"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "utf",
+        "len": 1024,
+        "api": "stream"
+      },
+      "rate": "0.40467"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "utf",
+        "len": 102400,
+        "api": "legacy"
+      },
+      "rate": "2.88516"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "utf",
+        "len": 102400,
+        "api": "stream"
+      },
+      "rate": "2.73084"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "utf",
+        "len": 1048576,
+        "api": "legacy"
+      },
+      "rate": "2.90150"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "utf",
+        "len": 1048576,
+        "api": "stream"
+      },
+      "rate": "2.88495"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "buf",
+        "len": 2,
+        "api": "legacy"
+      },
+      "rate": "0.01374"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
+        "algo": "sha512",
+        "type": "buf",
+        "len": 2,
+        "api": "stream"
+      },
+      "rate": "0.00093"
+    },
+    {
+      "name": "crypto/hash-stream-throughput",
+      "config": {
+        "writes": 500,
         "algo": "sha512",
         "type": "buf",
         "len": 1024,
         "api": "legacy"
       },
-      "rate": "2.24251"
+      "rate": "2.37878"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -3170,7 +3170,7 @@
         "len": 1024,
         "api": "stream"
       },
-      "rate": "0.43336"
+      "rate": "0.43782"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -3181,7 +3181,7 @@
         "len": 102400,
         "api": "legacy"
       },
-      "rate": "3.50714"
+      "rate": "3.82560"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -3192,7 +3192,7 @@
         "len": 102400,
         "api": "stream"
       },
-      "rate": "3.23479"
+      "rate": "3.54870"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -3203,7 +3203,7 @@
         "len": 1048576,
         "api": "legacy"
       },
-      "rate": "3.62464"
+      "rate": "3.84307"
     },
     {
       "name": "crypto/hash-stream-throughput",
@@ -3214,7 +3214,7 @@
         "len": 1048576,
         "api": "stream"
       },
-      "rate": "3.52758"
+      "rate": "3.78839"
     }
   ],
   "crypto/rsa-encrypt-decrypt-throughput": [
@@ -3225,7 +3225,7 @@
         "keylen": 1024,
         "len": 16
       },
-      "rate": "301.91910"
+      "rate": "318.25036"
     },
     {
       "name": "crypto/rsa-encrypt-decrypt-throughput",
@@ -3234,7 +3234,7 @@
         "keylen": 1024,
         "len": 32
       },
-      "rate": "597.75889"
+      "rate": "625.34086"
     },
     {
       "name": "crypto/rsa-encrypt-decrypt-throughput",
@@ -3243,7 +3243,7 @@
         "keylen": 1024,
         "len": 64
       },
-      "rate": "1208.97109"
+      "rate": "1277.91354"
     },
     {
       "name": "crypto/rsa-encrypt-decrypt-throughput",
@@ -3252,7 +3252,7 @@
         "keylen": 2048,
         "len": 16
       },
-      "rate": "77.72815"
+      "rate": "82.72933"
     },
     {
       "name": "crypto/rsa-encrypt-decrypt-throughput",
@@ -3261,7 +3261,7 @@
         "keylen": 2048,
         "len": 32
       },
-      "rate": "161.18606"
+      "rate": "166.83665"
     },
     {
       "name": "crypto/rsa-encrypt-decrypt-throughput",
@@ -3270,7 +3270,7 @@
         "keylen": 2048,
         "len": 64
       },
-      "rate": "322.36278"
+      "rate": "334.07410"
     },
     {
       "name": "crypto/rsa-encrypt-decrypt-throughput",
@@ -3279,7 +3279,7 @@
         "keylen": 4096,
         "len": 16
       },
-      "rate": "14.41316"
+      "rate": "15.12350"
     },
     {
       "name": "crypto/rsa-encrypt-decrypt-throughput",
@@ -3288,7 +3288,7 @@
         "keylen": 4096,
         "len": 32
       },
-      "rate": "28.87069"
+      "rate": "30.10595"
     },
     {
       "name": "crypto/rsa-encrypt-decrypt-throughput",
@@ -3297,7 +3297,7 @@
         "keylen": 4096,
         "len": 64
       },
-      "rate": "57.72049"
+      "rate": "60.34463"
     }
   ],
   "crypto/rsa-sign-verify-throughput": [
@@ -3309,7 +3309,7 @@
         "keylen": 1024,
         "len": 1024
       },
-      "rate": "911514.08642"
+      "rate": "975868.95641"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3319,7 +3319,7 @@
         "keylen": 1024,
         "len": 102400
       },
-      "rate": "2890462.83262"
+      "rate": "3094608.45478"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3329,7 +3329,7 @@
         "keylen": 1024,
         "len": 204800
       },
-      "rate": "2967468.52538"
+      "rate": "3125543.19743"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3339,7 +3339,7 @@
         "keylen": 1024,
         "len": 307200
       },
-      "rate": "2938750.69755"
+      "rate": "3135469.71715"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3349,7 +3349,7 @@
         "keylen": 1024,
         "len": 1048576
       },
-      "rate": "3058817.08794"
+      "rate": "3148112.11759"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3359,7 +3359,7 @@
         "keylen": 2048,
         "len": 1024
       },
-      "rate": "761943.22190"
+      "rate": "772805.73886"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3369,7 +3369,7 @@
         "keylen": 2048,
         "len": 102400
       },
-      "rate": "2997949.61232"
+      "rate": "3062907.44805"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3379,7 +3379,7 @@
         "keylen": 2048,
         "len": 204800
       },
-      "rate": "3082939.18373"
+      "rate": "3116606.39462"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3389,7 +3389,7 @@
         "keylen": 2048,
         "len": 307200
       },
-      "rate": "3018390.34304"
+      "rate": "3131002.25362"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3399,7 +3399,7 @@
         "keylen": 2048,
         "len": 1048576
       },
-      "rate": "3040595.47342"
+      "rate": "3153256.22821"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3409,7 +3409,7 @@
         "keylen": 1024,
         "len": 1024
       },
-      "rate": "704812.28206"
+      "rate": "708979.76040"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3419,7 +3419,7 @@
         "keylen": 1024,
         "len": 102400
       },
-      "rate": "1345244.50485"
+      "rate": "1405472.95244"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3429,7 +3429,7 @@
         "keylen": 1024,
         "len": 204800
       },
-      "rate": "1359800.98007"
+      "rate": "1410596.80806"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3439,7 +3439,7 @@
         "keylen": 1024,
         "len": 307200
       },
-      "rate": "1353375.43252"
+      "rate": "1413158.18958"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3449,7 +3449,7 @@
         "keylen": 1024,
         "len": 1048576
       },
-      "rate": "1333170.47042"
+      "rate": "1405326.52934"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3459,7 +3459,7 @@
         "keylen": 2048,
         "len": 1024
       },
-      "rate": "432539.14101"
+      "rate": "587882.13257"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3469,7 +3469,7 @@
         "keylen": 2048,
         "len": 102400
       },
-      "rate": "1351987.72192"
+      "rate": "1368379.97567"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3479,7 +3479,7 @@
         "keylen": 2048,
         "len": 204800
       },
-      "rate": "1357984.05285"
+      "rate": "1406866.37949"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3489,7 +3489,7 @@
         "keylen": 2048,
         "len": 307200
       },
-      "rate": "1340159.57910"
+      "rate": "1408639.72814"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3499,7 +3499,7 @@
         "keylen": 2048,
         "len": 1048576
       },
-      "rate": "1369672.41216"
+      "rate": "1408937.22883"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3509,7 +3509,7 @@
         "keylen": 1024,
         "len": 1024
       },
-      "rate": "696820.28709"
+      "rate": "704805.45167"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3519,7 +3519,7 @@
         "keylen": 1024,
         "len": 102400
       },
-      "rate": "1393985.67321"
+      "rate": "1406121.08341"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3529,7 +3529,7 @@
         "keylen": 1024,
         "len": 204800
       },
-      "rate": "1351599.08211"
+      "rate": "1412504.59490"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3539,7 +3539,7 @@
         "keylen": 1024,
         "len": 307200
       },
-      "rate": "1324164.84099"
+      "rate": "1414948.92692"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3549,7 +3549,7 @@
         "keylen": 1024,
         "len": 1048576
       },
-      "rate": "1341825.31903"
+      "rate": "1418014.02876"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3559,7 +3559,7 @@
         "keylen": 2048,
         "len": 1024
       },
-      "rate": "592031.43450"
+      "rate": "597642.98571"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3569,7 +3569,7 @@
         "keylen": 2048,
         "len": 102400
       },
-      "rate": "1348797.94924"
+      "rate": "1400657.42167"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3579,7 +3579,7 @@
         "keylen": 2048,
         "len": 204800
       },
-      "rate": "1350585.86803"
+      "rate": "1410418.97619"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3589,7 +3589,7 @@
         "keylen": 2048,
         "len": 307200
       },
-      "rate": "1359303.07227"
+      "rate": "1412920.93565"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3599,7 +3599,7 @@
         "keylen": 2048,
         "len": 1048576
       },
-      "rate": "1362261.58830"
+      "rate": "1414981.44087"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3609,7 +3609,7 @@
         "keylen": 1024,
         "len": 1024
       },
-      "rate": "808478.18736"
+      "rate": "827013.22932"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3619,7 +3619,7 @@
         "keylen": 1024,
         "len": 102400
       },
-      "rate": "1921044.01519"
+      "rate": "1989165.70069"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3629,7 +3629,7 @@
         "keylen": 1024,
         "len": 204800
       },
-      "rate": "1934732.61741"
+      "rate": "2002412.48654"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3639,7 +3639,7 @@
         "keylen": 1024,
         "len": 307200
       },
-      "rate": "1862145.36324"
+      "rate": "1976260.69865"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3649,7 +3649,7 @@
         "keylen": 1024,
         "len": 1048576
       },
-      "rate": "1932969.08057"
+      "rate": "2012264.02509"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3659,7 +3659,7 @@
         "keylen": 2048,
         "len": 1024
       },
-      "rate": "654557.99826"
+      "rate": "675019.92574"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3669,7 +3669,7 @@
         "keylen": 2048,
         "len": 102400
       },
-      "rate": "1915925.88630"
+      "rate": "1978737.16321"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3679,7 +3679,7 @@
         "keylen": 2048,
         "len": 204800
       },
-      "rate": "1944416.98361"
+      "rate": "1980240.88908"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3689,7 +3689,7 @@
         "keylen": 2048,
         "len": 307200
       },
-      "rate": "1932606.87081"
+      "rate": "2003846.73113"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3699,7 +3699,7 @@
         "keylen": 2048,
         "len": 1048576
       },
-      "rate": "1953343.67201"
+      "rate": "2011706.98835"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3709,7 +3709,7 @@
         "keylen": 1024,
         "len": 1024
       },
-      "rate": "815133.10920"
+      "rate": "822754.42549"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3719,7 +3719,7 @@
         "keylen": 1024,
         "len": 102400
       },
-      "rate": "1884816.85360"
+      "rate": "1989064.27380"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3729,7 +3729,7 @@
         "keylen": 1024,
         "len": 204800
       },
-      "rate": "1765569.85877"
+      "rate": "2002471.47533"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3739,7 +3739,7 @@
         "keylen": 1024,
         "len": 307200
       },
-      "rate": "1940618.79839"
+      "rate": "2007160.63925"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3749,7 +3749,7 @@
         "keylen": 1024,
         "len": 1048576
       },
-      "rate": "1938004.40308"
+      "rate": "2008934.01600"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3759,7 +3759,7 @@
         "keylen": 2048,
         "len": 1024
       },
-      "rate": "657595.57412"
+      "rate": "671259.31100"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3769,7 +3769,7 @@
         "keylen": 2048,
         "len": 102400
       },
-      "rate": "1897647.35374"
+      "rate": "1978815.83653"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3779,7 +3779,7 @@
         "keylen": 2048,
         "len": 204800
       },
-      "rate": "1898820.39628"
+      "rate": "1991450.35016"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3789,7 +3789,7 @@
         "keylen": 2048,
         "len": 307200
       },
-      "rate": "1712230.69501"
+      "rate": "2000878.18877"
     },
     {
       "name": "crypto/rsa-sign-verify-throughput",
@@ -3799,7 +3799,7 @@
         "keylen": 2048,
         "len": 1048576
       },
-      "rate": "1755635.28946"
+      "rate": "2004834.01800"
     }
   ]
 }
