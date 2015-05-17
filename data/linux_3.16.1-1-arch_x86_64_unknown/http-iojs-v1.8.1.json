@@ -1,0 +1,1262 @@
+{
+  "http/chunked": [
+    {
+      "name": "http/chunked",
+      "config": {
+        "num": 1,
+        "size": 1,
+        "c": 100
+      },
+      "rate": "2369.78000"
+    },
+    {
+      "name": "http/chunked",
+      "config": {
+        "num": 1,
+        "size": 64,
+        "c": 100
+      },
+      "rate": "2374.94000"
+    },
+    {
+      "name": "http/chunked",
+      "config": {
+        "num": 1,
+        "size": 256,
+        "c": 100
+      },
+      "rate": "2375.31000"
+    },
+    {
+      "name": "http/chunked",
+      "config": {
+        "num": 4,
+        "size": 1,
+        "c": 100
+      },
+      "rate": "2361.24000"
+    },
+    {
+      "name": "http/chunked",
+      "config": {
+        "num": 4,
+        "size": 64,
+        "c": 100
+      },
+      "rate": "2372.01000"
+    },
+    {
+      "name": "http/chunked",
+      "config": {
+        "num": 4,
+        "size": 256,
+        "c": 100
+      },
+      "rate": "2370.22000"
+    },
+    {
+      "name": "http/chunked",
+      "config": {
+        "num": 8,
+        "size": 1,
+        "c": 100
+      },
+      "rate": "2357.03000"
+    },
+    {
+      "name": "http/chunked",
+      "config": {
+        "num": 8,
+        "size": 64,
+        "c": 100
+      },
+      "rate": "2363.65000"
+    },
+    {
+      "name": "http/chunked",
+      "config": {
+        "num": 8,
+        "size": 256,
+        "c": 100
+      },
+      "rate": "2354.09000"
+    },
+    {
+      "name": "http/chunked",
+      "config": {
+        "num": 16,
+        "size": 1,
+        "c": 100
+      },
+      "rate": "2300.21000"
+    },
+    {
+      "name": "http/chunked",
+      "config": {
+        "num": 16,
+        "size": 64,
+        "c": 100
+      },
+      "rate": "2283.22000"
+    },
+    {
+      "name": "http/chunked",
+      "config": {
+        "num": 16,
+        "size": 256,
+        "c": 100
+      },
+      "rate": "2289.79000"
+    }
+  ],
+  "http/client-request-body": [
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "asc",
+        "bytes": 32,
+        "method": "write"
+      },
+      "rate": "49.99955"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "asc",
+        "bytes": 32,
+        "method": "end"
+      },
+      "rate": "49.99392"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "asc",
+        "bytes": 256,
+        "method": "write"
+      },
+      "rate": "49.98996"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "asc",
+        "bytes": 256,
+        "method": "end"
+      },
+      "rate": "49.99902"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "asc",
+        "bytes": 1024,
+        "method": "write"
+      },
+      "rate": "49.99312"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "asc",
+        "bytes": 1024,
+        "method": "end"
+      },
+      "rate": "49.99502"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "utf",
+        "bytes": 32,
+        "method": "write"
+      },
+      "rate": "50.00296"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "utf",
+        "bytes": 32,
+        "method": "end"
+      },
+      "rate": "49.98800"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "utf",
+        "bytes": 256,
+        "method": "write"
+      },
+      "rate": "49.99207"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "utf",
+        "bytes": 256,
+        "method": "end"
+      },
+      "rate": "50.00191"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "utf",
+        "bytes": 1024,
+        "method": "write"
+      },
+      "rate": "49.99327"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "utf",
+        "bytes": 1024,
+        "method": "end"
+      },
+      "rate": "49.60407"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "buf",
+        "bytes": 32,
+        "method": "write"
+      },
+      "rate": "49.99761"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "buf",
+        "bytes": 32,
+        "method": "end"
+      },
+      "rate": "49.99712"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "buf",
+        "bytes": 256,
+        "method": "write"
+      },
+      "rate": "49.99950"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "buf",
+        "bytes": 256,
+        "method": "end"
+      },
+      "rate": "49.99482"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "buf",
+        "bytes": 1024,
+        "method": "write"
+      },
+      "rate": "50.00265"
+    },
+    {
+      "name": "http/client-request-body",
+      "config": {
+        "dur": 5,
+        "type": "buf",
+        "bytes": 1024,
+        "method": "end"
+      },
+      "rate": "50.00321"
+    }
+  ],
+  "http/cluster": [
+    {
+      "name": "http/cluster",
+      "config": {
+        "type": "bytes",
+        "length": 4,
+        "c": 50
+      },
+      "rate": "24149.36000"
+    },
+    {
+      "name": "http/cluster",
+      "config": {
+        "type": "bytes",
+        "length": 4,
+        "c": 500
+      },
+      "rate": "18900.91000"
+    },
+    {
+      "name": "http/cluster",
+      "config": {
+        "type": "bytes",
+        "length": 1024,
+        "c": 50
+      },
+      "rate": "20896.13000"
+    },
+    {
+      "name": "http/cluster",
+      "config": {
+        "type": "bytes",
+        "length": 1024,
+        "c": 500
+      },
+      "rate": "16989.71000"
+    },
+    {
+      "name": "http/cluster",
+      "config": {
+        "type": "bytes",
+        "length": 102400,
+        "c": 50
+      },
+      "rate": "783.85000"
+    },
+    {
+      "name": "http/cluster",
+      "config": {
+        "type": "bytes",
+        "length": 102400,
+        "c": 500
+      },
+      "rate": "784.24000"
+    },
+    {
+      "name": "http/cluster",
+      "config": {
+        "type": "buffer",
+        "length": 4,
+        "c": 50
+      },
+      "rate": "21296.08000"
+    },
+    {
+      "name": "http/cluster",
+      "config": {
+        "type": "buffer",
+        "length": 4,
+        "c": 500
+      },
+      "rate": "17035.87000"
+    },
+    {
+      "name": "http/cluster",
+      "config": {
+        "type": "buffer",
+        "length": 1024,
+        "c": 50
+      },
+      "rate": "21411.17000"
+    },
+    {
+      "name": "http/cluster",
+      "config": {
+        "type": "buffer",
+        "length": 1024,
+        "c": 500
+      },
+      "rate": "16810.34000"
+    },
+    {
+      "name": "http/cluster",
+      "config": {
+        "type": "buffer",
+        "length": 102400,
+        "c": 50
+      },
+      "rate": "17716.62000"
+    },
+    {
+      "name": "http/cluster",
+      "config": {
+        "type": "buffer",
+        "length": 102400,
+        "c": 500
+      },
+      "rate": "14014.57000"
+    }
+  ],
+  "http/end-vs-write-end": [
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "asc",
+        "kb": 64,
+        "c": 100,
+        "method": "write"
+      },
+      "rate": "5585.05000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "asc",
+        "kb": 64,
+        "c": 100,
+        "method": "end"
+      },
+      "rate": "6071.05000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "asc",
+        "kb": 128,
+        "c": 100,
+        "method": "write"
+      },
+      "rate": "3813.12000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "asc",
+        "kb": 128,
+        "c": 100,
+        "method": "end"
+      },
+      "rate": "3919.24000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "asc",
+        "kb": 256,
+        "c": 100,
+        "method": "write"
+      },
+      "rate": "2147.81000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "asc",
+        "kb": 256,
+        "c": 100,
+        "method": "end"
+      },
+      "rate": "2211.74000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "asc",
+        "kb": 1024,
+        "c": 100,
+        "method": "write"
+      },
+      "rate": "473.44000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "asc",
+        "kb": 1024,
+        "c": 100,
+        "method": "end"
+      },
+      "rate": "484.82000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "utf",
+        "kb": 64,
+        "c": 100,
+        "method": "write"
+      },
+      "rate": "4431.37000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "utf",
+        "kb": 64,
+        "c": 100,
+        "method": "end"
+      },
+      "rate": "4695.52000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "utf",
+        "kb": 128,
+        "c": 100,
+        "method": "write"
+      },
+      "rate": "2539.72000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "utf",
+        "kb": 128,
+        "c": 100,
+        "method": "end"
+      },
+      "rate": "2756.24000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "utf",
+        "kb": 256,
+        "c": 100,
+        "method": "write"
+      },
+      "rate": "1455.41000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "utf",
+        "kb": 256,
+        "c": 100,
+        "method": "end"
+      },
+      "rate": "1466.81000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "utf",
+        "kb": 1024,
+        "c": 100,
+        "method": "write"
+      },
+      "rate": "405.64000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "utf",
+        "kb": 1024,
+        "c": 100,
+        "method": "end"
+      },
+      "rate": "410.99000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "buf",
+        "kb": 64,
+        "c": 100,
+        "method": "write"
+      },
+      "rate": "9428.71000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "buf",
+        "kb": 64,
+        "c": 100,
+        "method": "end"
+      },
+      "rate": "10161.94000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "buf",
+        "kb": 128,
+        "c": 100,
+        "method": "write"
+      },
+      "rate": "8793.18000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "buf",
+        "kb": 128,
+        "c": 100,
+        "method": "end"
+      },
+      "rate": "9009.90000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "buf",
+        "kb": 256,
+        "c": 100,
+        "method": "write"
+      },
+      "rate": "7324.62000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "buf",
+        "kb": 256,
+        "c": 100,
+        "method": "end"
+      },
+      "rate": "7234.76000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "buf",
+        "kb": 1024,
+        "c": 100,
+        "method": "write"
+      },
+      "rate": "3661.25000"
+    },
+    {
+      "name": "http/end-vs-write-end",
+      "config": {
+        "type": "buf",
+        "kb": 1024,
+        "c": 100,
+        "method": "end"
+      },
+      "rate": "3726.07000"
+    }
+  ],
+  "http/_chunky_http_client": [
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 1,
+        "num": 5,
+        "type": "send"
+      },
+      "rate": "156.80776"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 1,
+        "num": 50,
+        "type": "send"
+      },
+      "rate": "165.01218"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 1,
+        "num": 500,
+        "type": "send"
+      },
+      "rate": "204.60558"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 1,
+        "num": 2000,
+        "type": "send"
+      },
+      "rate": "366.40186"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 4,
+        "num": 5,
+        "type": "send"
+      },
+      "rate": "252.28893"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 4,
+        "num": 50,
+        "type": "send"
+      },
+      "rate": "296.66016"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 4,
+        "num": 500,
+        "type": "send"
+      },
+      "rate": "363.76311"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 4,
+        "num": 2000,
+        "type": "send"
+      },
+      "rate": "384.96239"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 8,
+        "num": 5,
+        "type": "send"
+      },
+      "rate": "232.89297"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 8,
+        "num": 50,
+        "type": "send"
+      },
+      "rate": "274.35579"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 8,
+        "num": 500,
+        "type": "send"
+      },
+      "rate": "342.04328"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 8,
+        "num": 2000,
+        "type": "send"
+      },
+      "rate": "370.28277"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 16,
+        "num": 5,
+        "type": "send"
+      },
+      "rate": "234.71731"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 16,
+        "num": 50,
+        "type": "send"
+      },
+      "rate": "294.77716"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 16,
+        "num": 500,
+        "type": "send"
+      },
+      "rate": "208.75818"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 16,
+        "num": 2000,
+        "type": "send"
+      },
+      "rate": "287.07401"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 32,
+        "num": 5,
+        "type": "send"
+      },
+      "rate": "135.13330"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 32,
+        "num": 50,
+        "type": "send"
+      },
+      "rate": "174.48882"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 32,
+        "num": 500,
+        "type": "send"
+      },
+      "rate": "209.79634"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 32,
+        "num": 2000,
+        "type": "send"
+      },
+      "rate": "228.03268"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 64,
+        "num": 5,
+        "type": "send"
+      },
+      "rate": "140.94494"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 64,
+        "num": 50,
+        "type": "send"
+      },
+      "rate": "174.89756"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 64,
+        "num": 500,
+        "type": "send"
+      },
+      "rate": "229.74079"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 64,
+        "num": 2000,
+        "type": "send"
+      },
+      "rate": "220.99986"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 128,
+        "num": 5,
+        "type": "send"
+      },
+      "rate": "121.12863"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 128,
+        "num": 50,
+        "type": "send"
+      },
+      "rate": "166.62657"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 128,
+        "num": 500,
+        "type": "send"
+      },
+      "rate": "205.23464"
+    },
+    {
+      "name": "http/_chunky_http_client",
+      "config": {
+        "len": 128,
+        "num": 2000,
+        "type": "send"
+      },
+      "rate": "227.49882"
+    }
+  ],
+  "http/simple": [
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 4,
+        "chunks": 0,
+        "c": 50
+      },
+      "rate": "11631.92000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 4,
+        "chunks": 0,
+        "c": 500
+      },
+      "rate": "8578.82000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 4,
+        "chunks": 1,
+        "c": 50
+      },
+      "rate": "10635.30000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 4,
+        "chunks": 1,
+        "c": 500
+      },
+      "rate": "7700.86000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 4,
+        "chunks": 4,
+        "c": 50
+      },
+      "rate": "1193.47000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 4,
+        "chunks": 4,
+        "c": 500
+      },
+      "rate": "4063.90000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 1024,
+        "chunks": 0,
+        "c": 50
+      },
+      "rate": "10628.07000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 1024,
+        "chunks": 0,
+        "c": 500
+      },
+      "rate": "8122.14000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 1024,
+        "chunks": 1,
+        "c": 50
+      },
+      "rate": "8242.40000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 1024,
+        "chunks": 1,
+        "c": 500
+      },
+      "rate": "6325.06000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 1024,
+        "chunks": 4,
+        "c": 50
+      },
+      "rate": "1192.97000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 1024,
+        "chunks": 4,
+        "c": 500
+      },
+      "rate": "3919.62000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 102400,
+        "chunks": 0,
+        "c": 50
+      },
+      "rate": "463.46000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 102400,
+        "chunks": 0,
+        "c": 500
+      },
+      "rate": "449.86000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 102400,
+        "chunks": 1,
+        "c": 50
+      },
+      "rate": "276.42000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 102400,
+        "chunks": 1,
+        "c": 500
+      },
+      "rate": "268.99000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 102400,
+        "chunks": 4,
+        "c": 50
+      },
+      "rate": "2855.95000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "bytes",
+        "length": 102400,
+        "chunks": 4,
+        "c": 500
+      },
+      "rate": "2176.02000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 4,
+        "chunks": 0,
+        "c": 50
+      },
+      "rate": "10946.10000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 4,
+        "chunks": 0,
+        "c": 500
+      },
+      "rate": "7694.36000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 4,
+        "chunks": 1,
+        "c": 50
+      },
+      "rate": "10227.31000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 4,
+        "chunks": 1,
+        "c": 500
+      },
+      "rate": "7301.54000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 4,
+        "chunks": 4,
+        "c": 50
+      },
+      "rate": "9074.23000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 4,
+        "chunks": 4,
+        "c": 500
+      },
+      "rate": "6706.89000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 1024,
+        "chunks": 0,
+        "c": 50
+      },
+      "rate": "10465.23000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 1024,
+        "chunks": 0,
+        "c": 500
+      },
+      "rate": "7528.39000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 1024,
+        "chunks": 1,
+        "c": 50
+      },
+      "rate": "9781.45000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 1024,
+        "chunks": 1,
+        "c": 500
+      },
+      "rate": "7245.28000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 1024,
+        "chunks": 4,
+        "c": 50
+      },
+      "rate": "8797.84000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 1024,
+        "chunks": 4,
+        "c": 500
+      },
+      "rate": "6533.51000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 102400,
+        "chunks": 0,
+        "c": 50
+      },
+      "rate": "8962.26000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 102400,
+        "chunks": 0,
+        "c": 500
+      },
+      "rate": "6631.56000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 102400,
+        "chunks": 1,
+        "c": 50
+      },
+      "rate": "8294.73000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 102400,
+        "chunks": 1,
+        "c": 500
+      },
+      "rate": "6434.75000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 102400,
+        "chunks": 4,
+        "c": 50
+      },
+      "rate": "7470.88000"
+    },
+    {
+      "name": "http/simple",
+      "config": {
+        "type": "buffer",
+        "length": 102400,
+        "chunks": 4,
+        "c": 500
+      },
+      "rate": "5871.18000"
+    }
+  ]
+}

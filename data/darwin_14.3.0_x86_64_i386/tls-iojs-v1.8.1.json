@@ -1,0 +1,103 @@
+{
+  "tls/throughput": [
+    {
+      "name": "tls/throughput",
+      "config": {
+        "dur": 5,
+        "type": "buf",
+        "size": 2
+      },
+      "rate": "3.43153"
+    },
+    {
+      "name": "tls/throughput",
+      "config": {
+        "dur": 5,
+        "type": "buf",
+        "size": 1024
+      },
+      "rate": "759.04152"
+    },
+    {
+      "name": "tls/throughput",
+      "config": {
+        "dur": 5,
+        "type": "buf",
+        "size": 1048576
+      },
+      "rate": "1232.04122"
+    },
+    {
+      "name": "tls/throughput",
+      "config": {
+        "dur": 5,
+        "type": "asc",
+        "size": 2
+      },
+      "rate": "3.21715"
+    },
+    {
+      "name": "tls/throughput",
+      "config": {
+        "dur": 5,
+        "type": "asc",
+        "size": 1024
+      },
+      "rate": "715.58564"
+    },
+    {
+      "name": "tls/throughput",
+      "config": {
+        "dur": 5,
+        "type": "asc",
+        "size": 1048576
+      },
+      "rate": "1242.84074"
+    },
+    {
+      "name": "tls/throughput",
+      "config": {
+        "dur": 5,
+        "type": "utf",
+        "size": 2
+      },
+      "rate": "3.18236"
+    },
+    {
+      "name": "tls/throughput",
+      "config": {
+        "dur": 5,
+        "type": "utf",
+        "size": 1024
+      },
+      "rate": "742.22514"
+    },
+    {
+      "name": "tls/throughput",
+      "config": {
+        "dur": 5,
+        "type": "utf",
+        "size": 1048576
+      },
+      "rate": "1115.70264"
+    }
+  ],
+  "tls/tls-connect": [
+    {
+      "name": "tls/tls-connect",
+      "config": {
+        "concurrency": 1,
+        "dur": 5
+      },
+      "rate": "710.90191"
+    },
+    {
+      "name": "tls/tls-connect",
+      "config": {
+        "concurrency": 10,
+        "dur": 5
+      },
+      "rate": "807.79314"
+    }
+  ]
+}

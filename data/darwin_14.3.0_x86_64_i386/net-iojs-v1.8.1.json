@@ -1,0 +1,338 @@
+{
+  "net/net-c2s": [
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 102400,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "4.69688"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 102400,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "8.02794"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 102400,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "9.02968"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 16777216,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "4.37649"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 16777216,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "7.48310"
+    },
+    {
+      "name": "net/net-c2s",
+      "config": {
+        "len": 16777216,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "11.00334"
+    }
+  ],
+  "net/net-pipe": [
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 102400,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "6.28880"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 102400,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "8.32752"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 102400,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "8.86265"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 16777216,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "5.67221"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 16777216,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "7.86580"
+    },
+    {
+      "name": "net/net-pipe",
+      "config": {
+        "len": 16777216,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "9.62159"
+    }
+  ],
+  "net/net-s2c": [
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 102400,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "4.83489"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 102400,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "8.35729"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 102400,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "9.39311"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 16777216,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "4.40757"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 16777216,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "7.54296"
+    },
+    {
+      "name": "net/net-s2c",
+      "config": {
+        "len": 16777216,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "10.99858"
+    }
+  ],
+  "net/tcp-raw-c2s": [
+    {
+      "name": "net/tcp-raw-c2s",
+      "config": {
+        "len": 102400,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "5.19160"
+    },
+    {
+      "name": "net/tcp-raw-c2s",
+      "config": {
+        "len": 102400,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "10.44281"
+    },
+    {
+      "name": "net/tcp-raw-c2s",
+      "config": {
+        "len": 102400,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "11.79496"
+    },
+    {
+      "name": "net/tcp-raw-c2s",
+      "config": {
+        "len": 16777216,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "4.52243"
+    },
+    {
+      "name": "net/tcp-raw-c2s",
+      "config": {
+        "len": 16777216,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "7.92612"
+    },
+    {
+      "name": "net/tcp-raw-c2s",
+      "config": {
+        "len": 16777216,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "12.68660"
+    }
+  ],
+  "net/tcp-raw-pipe": [
+    {
+      "name": "net/tcp-raw-pipe",
+      "config": {
+        "len": 102400,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "7.10754"
+    },
+    {
+      "name": "net/tcp-raw-pipe",
+      "config": {
+        "len": 102400,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "10.15441"
+    },
+    {
+      "name": "net/tcp-raw-pipe",
+      "config": {
+        "len": 102400,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "10.66946"
+    },
+    {
+      "name": "net/tcp-raw-pipe",
+      "config": {
+        "len": 16777216,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "5.95665"
+    },
+    {
+      "name": "net/tcp-raw-pipe",
+      "config": {
+        "len": 16777216,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "2.68929"
+    },
+    {
+      "name": "net/tcp-raw-pipe",
+      "config": {
+        "len": 16777216,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "10.86248"
+    }
+  ],
+  "net/tcp-raw-s2c": [
+    {
+      "name": "net/tcp-raw-s2c",
+      "config": {
+        "len": 102400,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "5.19130"
+    },
+    {
+      "name": "net/tcp-raw-s2c",
+      "config": {
+        "len": 102400,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "10.37348"
+    },
+    {
+      "name": "net/tcp-raw-s2c",
+      "config": {
+        "len": 102400,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "11.83238"
+    },
+    {
+      "name": "net/tcp-raw-s2c",
+      "config": {
+        "len": 16777216,
+        "type": "utf",
+        "dur": 5
+      },
+      "rate": "4.51277"
+    },
+    {
+      "name": "net/tcp-raw-s2c",
+      "config": {
+        "len": 16777216,
+        "type": "asc",
+        "dur": 5
+      },
+      "rate": "7.83810"
+    },
+    {
+      "name": "net/tcp-raw-s2c",
+      "config": {
+        "len": 16777216,
+        "type": "buf",
+        "dur": 5
+      },
+      "rate": "12.46414"
+    }
+  ]
+}
