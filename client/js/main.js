@@ -22,6 +22,7 @@ var oss = [
 ]
 var versions   = [
     'iojs-v2.0.1'
+  , 'iojs-v1.8.1'
   , 'node-v0.12.3'
   , 'node-v0.10.38'
 ]
