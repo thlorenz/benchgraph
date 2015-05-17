@@ -15,12 +15,12 @@ export NODE=`nave use 0.12 which node`
 export BENCHMARK_NAME=$1-node
 $DIR/graph.sh $NODE $DIR/benchmark/common.js $1
 
-# io.js v1
+# io.js v1.8
 export NODE=`nave use 1.8 which node`
 export BENCHMARK_NAME=$1-iojs
 $DIR/graph.sh node $DIR/benchmark/common.js $1
 
-# io.js latest
-export NODE=`nave use latest which node`
+# io.js v2.0
+export NODE=`nave use 2.0 which node`
 export BENCHMARK_NAME=$1-iojs
 $DIR/graph.sh node $DIR/benchmark/common.js $1
